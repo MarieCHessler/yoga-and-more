@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montez&family=Raleway&display=swap');
+
 body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Montez, sans-serif;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
