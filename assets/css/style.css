@@ -3,12 +3,14 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
+    color: red;
 }
 
 /* headings and logo */
 
 h1, h2 {
     font-family: Montez, sans-serif;
+    color: cadetblue;
 }
 
 #logo {
@@ -27,4 +29,14 @@ h1, h2 {
     float: left;
     list-style-type: none;
     margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: blue;
+
+}
+
+#menu a:hover {
+    color: chartreuse;
 }
