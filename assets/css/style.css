@@ -45,3 +45,11 @@ h1, h2 {
 #logo, #menu {
     line-height: 65px;
 }
+
+/* hero image*/
+
+#hero {
+    height: 650px;
+    width: 100%;
+    background: url('../images/hero-image.jpg') no-repeat center center;
+}
