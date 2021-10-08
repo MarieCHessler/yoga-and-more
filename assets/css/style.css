@@ -3,19 +3,20 @@
 body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
-    color: red;
+    color: #172121;
 }
 
 /* headings and logo */
 
 h1, h2 {
     font-family: Montez, sans-serif;
-    color: cadetblue;
+    color: #8a6a7a;
 }
 
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 35px;
 }
 
 /* navigation */
@@ -28,15 +29,19 @@ h1, h2 {
 #menu li {
     float: left;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 35px;
 }
 
 #menu a {
     text-decoration: none;
-    color: blue;
+    color: inherit;
 
 }
 
 #menu a:hover {
-    color: chartreuse;
+    color: #d9d3d7;
+}
+
+#logo, #menu {
+    line-height: 65px;
 }
