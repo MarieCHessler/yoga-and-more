@@ -8,9 +8,15 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Montez, sans-serif;
     color: #8a6a7a;
+}
+
+h2 {
+    font-family: Montez, sans-serif;
+    font-size: 250%;
+    color: #d9d3d7;
 }
 
 #logo {
@@ -46,20 +52,23 @@ h1, h2 {
     line-height: 65px;
 }
 
-/* hero image*/
+/* hero image and welcome */
 
 #hero-contain {
     height: 650px;
     width: 100%;
     overflow: hidden;
+    
+    position: relative;
 }
 
 #hero {
     height: 650px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    
     animation-name: zoom;
-    animation-duration: 3s;
+    animation-duration: 6s;
     animation-fill-mode: backwards;
 }
 
@@ -70,4 +79,26 @@ h1, h2 {
     to {
         transform: scale(1);
     }
+}
+
+#welcome-text, #welcome-text h2 {
+    color: #d9d3d7;
+    
+    margin: 0;
+}
+
+#welcome-text {
+    font-size: 115%;
+
+    width: 300px;
+    height: 175px;
+
+    padding: 40px;
+
+    background-color: rgba(23, 33, 33, .5);
+
+    bottom: 35px;
+    right: 0px;
+
+    position: absolute;
 }
