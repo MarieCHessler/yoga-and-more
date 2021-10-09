@@ -48,8 +48,26 @@ h1, h2 {
 
 /* hero image*/
 
+#hero-contain {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero {
     height: 650px;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    animation-name: zoom;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes zoom {
+    from { 
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
 }
