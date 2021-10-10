@@ -41,7 +41,6 @@ h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
@@ -82,56 +81,70 @@ h2 {
 }
 
 #welcome-text, #welcome-text h2 {
-    color: #f8f3f2;
-    
     margin: 0;
+
+    color: #f8f3f2;
 }
 
 #welcome-text {
     font-size: 115%;
 
-    width: 300px;
     height: 175px;
-
-    padding: 40px;
-
-    background-color: rgba(23, 33, 33, .5);
+    width: 300px;
 
     bottom: 35px;
     right: 0px;
 
+    padding: 40px;
+
     position: absolute;
+
+    background-color: rgba(23, 33, 33, .5);
+}
+/* sections and section headings*/
+.classes-grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
 }
 
 /* classes and times section */
 
 #classes-heading {
-    background-color: #444554;
     text-align: center;
-    font-size: 115%;
+    background-color: #444554;
+}
+
+#classes-yoga {
+    float:left
+}
+
+#classes-pilates {
+    width: 33%
+}
+
+#classes-meditation {
+    float:right
 }
 
 /* about us section */
 
 #about-heading {
-    background-color: #7f7b82;
     text-align: center;
-    font-size: 115%;
+    background-color: #7f7b82;
 }
 
 /* contact section */
 
 #contact-heading {
-    background-color: #8a6a7a;
     text-align: center;
-    font-size: 115%;
+    background-color: #8a6a7a;
 }
 
 /* footer section */
 
 #footer {
-    background-color: #e5d0cc;
     height: 100px;
+    background-color: #e5d0cc;
 }
 
 /* media queries */
@@ -143,7 +156,7 @@ h2 {
 
 /* for screen sizes 900px and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     
 }
 
