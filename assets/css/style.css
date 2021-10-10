@@ -102,11 +102,6 @@ h2 {
     background-color: rgba(23, 33, 33, .5);
 }
 /* sections and section headings*/
-.classes-grid {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-}
-
 /* classes and times section */
 
 #classes-heading {
@@ -114,16 +109,16 @@ h2 {
     background-color: #444554;
 }
 
-#classes-yoga {
-    float:left
+#classes-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em
 }
 
-#classes-pilates {
-    width: 33%
-}
-
-#classes-meditation {
-    float:right
+.classes-grid-all {
+    width: 80%;
+    padding: 35px;
+    clear: both;
 }
 
 /* about us section */
