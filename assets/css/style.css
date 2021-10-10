@@ -127,6 +127,17 @@ h2 {
     text-align: center;
     background-color: #7f7b82;
 }
+#about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em
+}
+
+.about-grid-all {
+    width: 80%;
+    padding: 35px;
+    clear: both;
+}
 
 /* contact section */
 
