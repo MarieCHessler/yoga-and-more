@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-family: Montez, sans-serif;
     font-size: 250%;
-    color: #d9d3d7;
+    color: #f8f3f2;
 }
 
 #logo {
@@ -82,7 +82,7 @@ h2 {
 }
 
 #welcome-text, #welcome-text h2 {
-    color: #d9d3d7;
+    color: #f8f3f2;
     
     margin: 0;
 }
@@ -103,28 +103,59 @@ h2 {
     position: absolute;
 }
 
-/* media queries*/
-/* for screen sizes 1200px and less */
+/* classes and times section */
+
+#classes-heading {
+    background-color: #444554;
+    text-align: center;
+    font-size: 115%;
+}
+
+/* about us section */
+
+#about-heading {
+    background-color: #7f7b82;
+    text-align: center;
+    font-size: 115%;
+}
+
+/* contact section */
+
+#contact-heading {
+    background-color: #8a6a7a;
+    text-align: center;
+    font-size: 115%;
+}
+
+/* footer section */
+
+#footer {
+    background-color: #e5d0cc;
+    height: 100px;
+}
+
+/* media queries */
+/* for screen sizes 1200px and down */
 
 @media screen and (max-width: 1200px) {
     
 }
 
-/* for screen sizes 950px and less */
+/* for screen sizes 900px and down */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1200px) {
     
 }
 
-/* for screen sizes 750px and less */
+/* for screen sizes 750px and down */
 
 @media screen and (max-width: 750px) {
     #menu {
         float: left;
-        clear: left;
+        position: relative;
         line-height: 30px;
         margin-bottom: 25px;
-        margin-left: 15px;
+        margin-left: 35px;
     }
 
     #hero {
@@ -140,10 +171,15 @@ h2 {
     #welcome-text {
         left: 0px;
         width: 100%;
+        text-align: center;
+        padding: 0px;
     }
 
     #logo {
-        clear: left;
-        margin-left: 40px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+        margin-left: 0px;
     }
 }
