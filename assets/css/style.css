@@ -142,6 +142,57 @@ h2 {
     width: 80%;
     padding: 35px;
     clear: both;
+}   
+
+#about-chris-frame {
+    height: 175px;
+    width: 175px;
+    padding: 5px;
+    border-width: 3px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: rgba(127, 123, 130, 0.75);
+    margin: 0 auto;
+}
+
+#about-chris-image {
+    background: url('../images/about-chris.jpg');
+    height: 100%;
+    border-radius: 50%;
+}
+
+#about-liza-frame {
+    height: 175px;
+    width: 175px;
+    padding: 5px;
+    border-width: 3px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: rgba(127, 123, 130, 0.75);
+    margin: 0 auto;
+}
+
+#about-liza-image {
+    background: url('../images/about-liza.jpg');
+    height: 100%;
+    border-radius: 50%;
+}
+
+#about-sarah-frame {
+    height: 175px;
+    width: 175px;
+    padding: 5px;
+    border-width: 3px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: rgba(127, 123, 130, 0.75);
+    margin: 0 auto;
+}
+
+#about-sarah-image {
+    background: url('../images/about-sarah.jpg');
+    height: 100%;
+    border-radius: 50%;
 }
 
 /* contact section */
