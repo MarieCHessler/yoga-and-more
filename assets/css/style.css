@@ -125,6 +125,14 @@ h2 {
     clear: both;
 }
 
+.classes-grid-all h3 {
+    text-align: center;
+}
+
+.fas {
+    font-size: 200%;
+}
+
 /* about us section */
 
 #about-heading {
@@ -142,7 +150,11 @@ h2 {
     width: 80%;
     padding: 35px;
     clear: both;
-}   
+}  
+
+.about-grid-all h3 {
+    text-align: center;
+}
 
 #about-chris-frame {
     height: 175px;
