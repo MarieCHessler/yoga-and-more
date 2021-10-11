@@ -51,9 +51,9 @@ h2 {
     line-height: 65px;
 }
 
-/* hero image and welcome */
+/* hero image and welcome section */
 
-#hero-contain {
+#hero-section {
     height: 650px;
     width: 100%;
     overflow: hidden;
@@ -101,12 +101,16 @@ h2 {
 
     background-color: rgba(23, 33, 33, .5);
 }
-/* sections and section headings*/
+
 /* classes and times section */
+#classes {
+    justify-content: center;
+}
 
 #classes-heading {
     text-align: center;
     background-color: #444554;
+    height: 50px;
 }
 
 #classes-grid {
@@ -126,6 +130,7 @@ h2 {
 #about-heading {
     text-align: center;
     background-color: #7f7b82;
+    height: 50px
 }
 #about-grid {
     display: grid;
@@ -144,6 +149,7 @@ h2 {
 #contact-heading {
     text-align: center;
     background-color: #8a6a7a;
+    height: 50px;
 }
 
 /* footer section */
@@ -163,7 +169,16 @@ h2 {
 /* for screen sizes 900px and down */
 
 @media screen and (max-width: 900px) {
+
+    #classes-grid {
+        float: left;
+        grid-template-columns: 1fr 1fr;
+    }
     
+    #about-grid {
+        float: left;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* for screen sizes 750px and down */
@@ -200,5 +215,29 @@ h2 {
         text-align: center;
         padding: 0px;
         margin-left: 0px;
+    }
+
+    #classes-heading {
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+
+    #classes-grid {
+        float: left;
+        grid-template-columns: 1fr;
+    }
+
+    #about-heading {
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    #about-grid {
+        float: left;
+        grid-template-columns: 1fr;
     }
 }
