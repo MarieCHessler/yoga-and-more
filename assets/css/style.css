@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montez&family=Raleway&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
@@ -101,11 +105,11 @@ h2 {
 .general-section-heading {
     text-align: center;
     height: 50px;
+    background-color: #444554;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    background-color: #444554;
 }
 
 /* classes and times section */
@@ -143,7 +147,7 @@ h2 {
     margin: 0;
 }
 
-#classes-dashes {
+#classes-divider {
     text-align: center;
     padding-bottom: 2em;
 }
@@ -223,7 +227,7 @@ h2 {
 
 #footer {
     height: 100px;
-    background-color: #e5d0cc;
+    background-color: #8a6a7a;
 }
 
 /* media queries */
@@ -238,12 +242,10 @@ h2 {
 @media screen and (max-width: 900px) {
 
     #classes-grid {
-        float: left;
         grid-template-columns: 1fr 1fr;
     }
     
     #about-grid {
-        float: left;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -285,12 +287,10 @@ h2 {
     }
 
     #classes-grid {
-        float: left;
         grid-template-columns: 1fr;
     }
     
     #about-grid {
-        float: left;
         grid-template-columns: 1fr;
     }
 }
