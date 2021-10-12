@@ -136,15 +136,19 @@ h2 {
 }
 
 .classes-times {
+    padding-top: 1em;
+}
 
+.classes-times p {
+    margin: 0;
+}
+
+#classes-dashes {
+    text-align: center;
+    padding-bottom: 2em;
 }
 
 /* about us section */
-
-#about-heading {
-    text-align: center;
-    height: 50px
-}
 
 #about-grid {
     display: grid;
