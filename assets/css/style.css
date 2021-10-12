@@ -96,7 +96,7 @@ h2 {
     background-color: rgba(23, 33, 33, .5);
 }
 
-/* general section heading */
+/* general for sections */
 
 .general-section-heading {
     text-align: center;
@@ -132,9 +132,19 @@ h2 {
 
 .fas {
     font-size: 200%;
+    color: #7f7b82
+}
+
+.classes-times {
+
 }
 
 /* about us section */
+
+#about-heading {
+    text-align: center;
+    height: 50px
+}
 
 #about-grid {
     display: grid;
@@ -270,23 +280,9 @@ h2 {
         margin-left: 0px;
     }
 
-    #classes-heading {
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-    }
-
     #classes-grid {
         float: left;
         grid-template-columns: 1fr;
-    }
-
-    #about-heading {
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
     }
     
     #about-grid {
