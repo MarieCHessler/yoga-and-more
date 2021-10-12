@@ -82,7 +82,6 @@ h2 {
 
 #welcome-text, #welcome-text h2 {
     margin: 0;
-
     color: #f8f3f2;
 }
 
@@ -116,7 +115,7 @@ h2 {
 #classes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 2em
+    grid-gap: 2em;
 }
 
 .classes-grid-all {
@@ -138,12 +137,12 @@ h2 {
 #about-heading {
     text-align: center;
     background-color: #7f7b82;
-    height: 50px
+    height: 50px;
 }
 #about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2em
+    grid-gap: 2em;
 }
 
 .about-grid-all {
