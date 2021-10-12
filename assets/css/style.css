@@ -101,15 +101,22 @@ h2 {
     background-color: rgba(23, 33, 33, .5);
 }
 
-/* classes and times section */
-#classes {
-    justify-content: center;
+/* general section heading */
+
+.general-section-heading {
+    text-align: center;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #444554;
 }
 
-#classes-heading {
-    text-align: center;
-    background-color: #444554;
-    height: 50px;
+/* classes and times section */
+
+#classes {
+    justify-content: center;
 }
 
 #classes-grid {
@@ -134,11 +141,6 @@ h2 {
 
 /* about us section */
 
-#about-heading {
-    text-align: center;
-    background-color: #7f7b82;
-    height: 50px;
-}
 #about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -207,12 +209,6 @@ h2 {
 }
 
 /* contact section */
-
-#contact-heading {
-    text-align: center;
-    background-color: #8a6a7a;
-    height: 50px;
-}
 
 /* footer section */
 
