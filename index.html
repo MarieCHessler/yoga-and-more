@@ -133,9 +133,35 @@
             </div>
         </div>
     </section>
-    <section id="contact">
-        <h2 class="general-section-heading">Contact</h2>
-        Contact form, info and map
+    <section id="contact" class="contact">
+        <form method="post" action="test@hessler.se" class="contact-form">
+            <h2 class="general-section-heading">Contact</h2>
+                <label for="first-name">First Name</label>
+                <input class="input-text" id="first-name" name="first-name" type="text" required>
+
+                <label for="last-name">Last Name</label>
+                <input class="input-text" id="last-name" name="last-name" type="text" required>
+
+                <label for="email">E-mail</label>
+                <input class="input-text" id="email" name="email" type="email" required>
+
+                <label for="message">Message (Optional)</label>
+                <input class="input-text" id="message" name="message" type="text">
+
+                <label for="yoga">Yoga</label>
+                <input id="yoga" name="contact-about" value="yoga" type="radio-button" required>
+
+                <label for="pilates">Pilates</label>
+                <input id="pilates" name="contact-about" value="pilates" type="radio-button" required>
+
+                <label for="meditation">Meditation</label>
+                <input id="meditation" name="contact-about" value="meditation" type="radio-button" required>
+
+                <label for="other">Other</label>
+                <input id="other" name="contact-about" value="other" type="radio-button" required>
+
+                <input class="send-button" value="Send" type="submit">
+        </form>
     </section>
 
     <footer id="footer">
