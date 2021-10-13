@@ -114,7 +114,7 @@ h2 {
 
 /* classes and times section */
 
-#classes {
+#classes-section {
     justify-content: center;
 }
 
@@ -222,6 +222,59 @@ h2 {
 }
 
 /* contact section */
+
+.contact-section {
+    clear:left;
+    background: url('../images/contact-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    overflow: hidden;
+}
+
+.contact-form {
+    margin: 65px 10% 0 0;
+    color: #f8f3f2;
+    background-color: rgba(127, 123, 130, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 35px;
+}
+
+.input-text {
+    font-family: Raleway, sans-serif;
+    background: transparent;
+    color: #172121;
+    width: 100%;
+    height: 20px;
+    margin: 5px 0 20px 0;
+    border: 2px solid #f8f3f2
+}
+
+.input-text:hover {
+    border-color: #7f7b82;
+}
+
+.send-button {
+    font-family: Raleway, sans-serif;
+    font-size: 100%;
+    color: #f8f3f2;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-right: 0;
+    padding: 10px 25px 10px 25px;
+    background-color: #444554;
+    display: block;
+    border: 2px solid #f8f3f2
+}
+
+.send-button:hover {
+    color: #444554;
+    background-color: #f8f3f2;
+    border-color: #444554;
+}
 
 /* footer section */
 
