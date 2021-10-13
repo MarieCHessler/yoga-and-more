@@ -122,6 +122,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .classes-grid-all {
@@ -158,6 +160,8 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .about-grid-all {
@@ -228,18 +232,17 @@ h2 {
     background: url('../images/contact-background.jpg');
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 800px;
     overflow: hidden;
 }
 
 .contact-form {
-    margin: 65px 10% 0 0;
+    float:left;
     color: #f8f3f2;
     background-color: rgba(127, 123, 130, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
+    max-width: 600px;
     padding: 35px;
+    height: 800px;
 }
 
 .input-text {
@@ -274,6 +277,25 @@ h2 {
     color: #444554;
     background-color: #f8f3f2;
     border-color: #444554;
+}
+
+.contact-info {
+    padding-top: 100px;
+}
+
+.contact.map {
+    padding-bottom: 20%;
+    overflow: hidden;
+    position: relative;
+    height: 0;
+}
+
+.contact.map iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute
 }
 
 /* footer section */
