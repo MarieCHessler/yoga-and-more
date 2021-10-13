@@ -240,7 +240,7 @@ h2 {
     float:left;
     color: #f8f3f2;
     background-color: rgba(127, 123, 130, 0.6);
-    max-width: 600px;
+    max-width: 550px;
     padding: 35px;
     height: 800px;
 }
@@ -283,18 +283,26 @@ h2 {
     padding-top: 100px;
 }
 
-.contact.map {
+.contact-info h3{
+    line-height: 0;
+    padding-top: 2em;
+}
+
+.contact-map-container {
     padding-bottom: 20%;
     overflow: hidden;
     position: relative;
     height: 0;
+    border-top: 2px solid #444554;
+    border-bottom: 2px solid #444554;
 }
 
-.contact.map iframe{
+.contact-map {
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
+    border: 0;
     position: absolute
 }
 
@@ -325,9 +333,9 @@ h2 {
     }
 }
 
-/* for screen sizes 750px and down */
+/* for screen sizes 770px and down */
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
     #menu {
         float: left;
         position: relative;
@@ -367,5 +375,13 @@ h2 {
     
     #about-grid {
         grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .contact-map-container {
+        padding-bottom: 40%;
     }
 }
