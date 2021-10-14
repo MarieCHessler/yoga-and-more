@@ -295,8 +295,8 @@ h2 {
     overflow: hidden;
     position: relative;
     height: 0;
-    border-top: 2px solid #444554;
-    border-bottom: 2px solid #444554;
+    border-top: 3px solid #7f7b82;
+    border-bottom: 3px solid #7f7b82;
 }
 
 .contact-map {
@@ -311,8 +311,9 @@ h2 {
 /* footer section */
 
 #footer {
+    color: #f8f3f2;
     height: 100px;
-    background-color: #8a6a7a;
+    background-color: #444554;
 }
 
 /* media queries */
