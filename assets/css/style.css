@@ -295,8 +295,6 @@ h2 {
     overflow: hidden;
     position: relative;
     height: 0;
-    border-top: 3px solid #7f7b82;
-    border-bottom: 3px solid #7f7b82;
 }
 
 .contact-map {
@@ -329,10 +327,12 @@ h2 {
 
     #classes-grid {
         grid-template-columns: 1fr 1fr;
+        text-align: center;
     }
     
     #about-grid {
         grid-template-columns: 1fr 1fr;
+        text-align: center;
     }
 }
 
@@ -374,10 +374,12 @@ h2 {
 
     #classes-grid {
         grid-template-columns: 1fr;
+        text-align: center;
     }
     
     #about-grid {
         grid-template-columns: 1fr;
+        text-align: center;
     }
 
     .contact-form {
