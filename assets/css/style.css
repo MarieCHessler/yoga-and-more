@@ -376,10 +376,22 @@ h2 {
         grid-template-columns: 1fr;
         text-align: center;
     }
-    
+
+    .classes-grid-all {
+        width: 100%;
+        padding: 20px 0px 35px 0px;
+        clear: both;
+    }
+
     #about-grid {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .about-grid-all {
+        width: 100%;
+        padding: 20px 0px 35px 0px;
+        clear: both;
     }
 
     .contact-form {
