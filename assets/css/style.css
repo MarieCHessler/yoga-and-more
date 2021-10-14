@@ -8,6 +8,8 @@ body {
     font-family: Raleway, sans-serif;
     font-weight: 400;
     color: #172121;
+    width: 100%;
+    margin: 0px;
 }
 
 /* headings and logo */
