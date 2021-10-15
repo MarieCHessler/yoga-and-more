@@ -242,7 +242,7 @@ h2 {
     float:left;
     color: #f8f3f2;
     background-color: rgba(127, 123, 130, 0.6);
-    max-width: 45%;
+    max-width: 30em;
     padding: 35px;
     height: 800px;
 }
@@ -317,13 +317,13 @@ h2 {
 /* media queries */
 /* for screen sizes 1200px and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
     
 }
 
-/* for screen sizes 900px and down */
+/* for screen sizes less than 992px */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 991.98px) {
 
     #classes-grid {
         grid-template-columns: 1fr 1fr;
@@ -339,10 +339,18 @@ h2 {
         padding-bottom: 30%;
     }
 }
+/* for screen sizes less than 768px */
 
-/* for screen sizes 550px and down */
+@media screen and (max-width: 767.98px) {
+    .contact-form {
+        max-width: 200px;
+    }
+}
 
-@media screen and (max-width: 550px) {
+
+/* for screen sizes less than 576px */
+
+@media screen and (max-width: 575.98px) {
     #menu {
         float: right;
         position: relative;
