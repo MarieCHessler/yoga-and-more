@@ -317,13 +317,13 @@ h2 {
 /* media queries */
 /* for screen sizes 1200px and down */
 
-@media screen and (max-width: 1199.98px) {
+@media screen and (max-width: 1200px) {
     
 }
 
-/* for screen sizes less than 992px */
+/* for screen sizes 1120px and down*/
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 1120px) {
 
     #classes-grid {
         grid-template-columns: 1fr 1fr;
@@ -339,18 +339,16 @@ h2 {
         padding-bottom: 30%;
     }
 }
-/* for screen sizes less than 768px */
+/* for screen sizes 770px and down */
 
-@media screen and (max-width: 767.98px) {
-    .contact-form {
-        max-width: 200px;
-    }
+@media screen and (max-width: 770px) {
+
 }
 
 
-/* for screen sizes less than 576px */
+/* for screen sizes 570px and down*/
 
-@media screen and (max-width: 575.98px) {
+@media screen and (max-width: 570px) {
     #menu {
         float: right;
         position: relative;
