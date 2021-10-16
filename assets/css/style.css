@@ -156,6 +156,20 @@ h2 {
     padding-bottom: 2em;
 }
 
+#section-image {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    position: bottom;
+}
+
+#classes-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/classes-image.jpg') no-repeat center center;
+    background-attachment: fixed;
+}
+
 /* about us section */
 
 #about-grid {
