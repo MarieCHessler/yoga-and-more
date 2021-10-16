@@ -454,5 +454,12 @@ h2 {
         float: none;
         text-align: center;
         margin-right: 0;
+        margin-left: -5%;
+        width: 100%;
+    }
+
+    .footer-social i {
+        padding: 0 1em;
+        float: none;
     }
 }
