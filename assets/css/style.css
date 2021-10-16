@@ -331,13 +331,13 @@ h2 {
 #footer-copyright {
     float: left;
     margin-left: 5%;
-
 }
 
 #footer-social {
     float: right;
     margin-right: 5%;
 }
+
 /* media queries */
 /* for screen sizes 1200px and down */
 
@@ -428,5 +428,21 @@ h2 {
 
     .contact-map-container {
         padding-bottom: 40%;
+    }
+
+    #footer {
+        height: 80px;
+    }
+
+    #footer-copyright {
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #footer-social {
+        float: none;
+        text-align: center;
+        margin-right: 0;
     }
 }
