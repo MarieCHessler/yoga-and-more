@@ -151,9 +151,8 @@ h2 {
     margin: 0;
 }
 
-#classes-divider {
+.classes-divider {
     text-align: center;
-    padding-bottom: 2em;
 }
 
 .section-image {
