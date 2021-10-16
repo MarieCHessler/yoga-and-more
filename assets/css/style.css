@@ -70,8 +70,8 @@ h2 {
 
 #hero {
     height: 650px;
-    width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
     animation-name: zoom;
     animation-duration: 6s;
     animation-fill-mode: backwards;
@@ -156,11 +156,11 @@ h2 {
     padding-bottom: 2em;
 }
 
-#section-image {
+.section-image {
     height: 650px;
     width: 100%;
     overflow: hidden;
-    position: bottom;
+    position: relative;
 }
 
 #classes-image {
@@ -168,6 +168,8 @@ h2 {
     width: 100%;
     background: url('../images/classes-image.jpg') no-repeat center center;
     background-attachment: fixed;
+    background-size: cover;
+
 }
 
 /* about us section */
