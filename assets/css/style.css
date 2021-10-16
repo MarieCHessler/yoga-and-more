@@ -322,11 +322,6 @@ h2 {
     padding-top: 1em;
 }
 
-#footer a {
-    color: #f8f3f2;
-    padding: 1em;
-}
-
 #footer-copyright {
     float: left;
     margin-left: 5%;
@@ -335,6 +330,17 @@ h2 {
 #footer-social {
     float: right;
     margin-right: 5%;
+    width: 300px;
+}
+
+.footer-social >li {
+    display: inline;
+}
+
+.footer-social i {
+    color: #f8f3f2;
+    padding: 0 1em;
+    float: right;
 }
 
 /* media queries */
