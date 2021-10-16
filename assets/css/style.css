@@ -366,6 +366,11 @@ h2 {
 
     .contact-map-container {
         padding-bottom: 30%;
+        overflow: hidden;
+    }
+
+    iframe {
+        border: 0;
     }
 }
 /* for screen sizes 770px and down */
