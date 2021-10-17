@@ -375,6 +375,7 @@ h2 {
 .thank-you {
     text-align: center;
     clear: both;
+    height: 325px;
 }
 
 .thank-you-heading {
