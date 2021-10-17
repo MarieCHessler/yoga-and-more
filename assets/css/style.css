@@ -55,6 +55,10 @@ h2 {
     color: #7f7b82;
 }
 
+.menu-active {
+    color: #7f7b82;
+}
+
 #logo, #menu {
     line-height: 65px;
 }
@@ -168,7 +172,6 @@ h2 {
     background: url('../images/classes-image.jpg') no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 /* about us section */
@@ -290,7 +293,7 @@ h2 {
     padding-top: 100px;
 }
 
-.contact-info h3{
+.contact-info h3 {
     line-height: 0;
     padding-top: 2em;
 }
@@ -373,14 +376,18 @@ h2 {
         border: 0;
     }
 }
+
 /* for screen sizes 770px and down */
 
 @media screen and (max-width: 770px) {
-
+    #hero {
+        height: 650px;
+        width: 100%;
+        background: url('../images/hero-image-small.jpg') no-repeat center center;
+    }
 }
 
-
-/* for screen sizes 570px and down*/
+/* for screen sizes 570px and down */
 
 @media screen and (max-width: 570px) {
     #menu {
@@ -389,16 +396,6 @@ h2 {
         line-height: 30px;
         margin-bottom: 25px;
         margin-left: 35px;
-    }
-
-    #hero {
-        height: 650px;
-        width: 100%;
-        background: url('../images/hero-image-small.jpg') no-repeat center center;
-        
-        animation-name: zoom;
-        animation-duration: 6s;
-        animation-fill-mode: backwards;
     }
 
     #welcome-text {
