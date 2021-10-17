@@ -373,12 +373,18 @@ h2 {
 /* thank you page */
 
 .thank-you {
-    text-align: center;
     clear: both;
 }
 
 .thank-you-heading {
-    color: #444554
+    text-align: center;
+    height: 50px;
+    background-color: #444554;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    clear: both
 }
 
 /* media queries */
