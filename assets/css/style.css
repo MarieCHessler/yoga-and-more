@@ -350,7 +350,7 @@ h2 {
 
 #our-place-photos {
     column-count: 4;
-    column-gap: 1em;
+    column-gap: 0;
     line-height: 0;
     clear: both;
 }
