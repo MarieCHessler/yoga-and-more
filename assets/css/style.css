@@ -348,6 +348,17 @@ h2 {
 
 /* our place page */
 
+.our-place-section-heading {
+    text-align: center;
+    height: 50px;
+    background-color: #444554;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    clear: both
+}
+
 #our-place-photos {
     column-count: 4;
     column-gap: 0;
