@@ -375,7 +375,6 @@ h2 {
 .thank-you {
     text-align: center;
     clear: both;
-    height: 650px;
 }
 
 .thank-you-heading {
@@ -390,8 +389,7 @@ h2 {
 }
 
 .thank-you-text {
-    text-align: center;
-    padding-top: 2em;
+    margin-top: 2em;
 }
 
 /* media queries */
