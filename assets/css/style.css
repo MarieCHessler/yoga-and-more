@@ -398,6 +398,10 @@ h2 {
         width: 100%;
         background: url('../images/hero-image-small.jpg') no-repeat center center;
     }
+
+    #our-place-photos {
+        column-count: 3;
+    }
 }
 
 /* for screen sizes 570px and down */
@@ -471,5 +475,9 @@ h2 {
     .footer-social i {
         padding: 0 1em;
         float: none;
+    }
+
+    #our-place-photos {
+        column-count: 2;
     }
 }
