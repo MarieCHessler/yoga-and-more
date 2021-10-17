@@ -373,7 +373,12 @@ h2 {
 /* thank you page */
 
 .thank-you {
-    clear: both
+    text-align: center;
+    clear: both;
+}
+
+.thank-you-heading {
+    color: #444554
 }
 
 /* media queries */
