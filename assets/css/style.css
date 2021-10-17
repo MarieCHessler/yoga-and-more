@@ -373,7 +373,9 @@ h2 {
 /* thank you page */
 
 .thank-you {
+    text-align: center;
     clear: both;
+    height: 650px;
 }
 
 .thank-you-heading {
@@ -385,6 +387,11 @@ h2 {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     clear: both
+}
+
+.thank-you-text {
+    text-align: center;
+    padding-top: 2em;
 }
 
 /* media queries */
