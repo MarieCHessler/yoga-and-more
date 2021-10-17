@@ -348,7 +348,16 @@ h2 {
 
 /* our place page */
 
+#our-place-photos {
+    column-count: 4;
+    column-gap: 1em;
+    line-height: 0;
+    clear: both;
+}
 
+#our-place-photos > img {
+    width: 100%;
+}
 
 /* media queries */
 /* for screen sizes 1200px and down */
