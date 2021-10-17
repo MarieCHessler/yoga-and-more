@@ -389,7 +389,8 @@ h2 {
 }
 
 .thank-you-text {
-    margin-top: 2em;
+    margin-top: 4em;
+    font-size: 150%;
 }
 
 /* media queries */
