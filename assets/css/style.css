@@ -466,6 +466,11 @@ h2 {
         margin-left: 0px;
     }
 
+    #hero {
+        height: 325px;
+        background: url('../images/hero-image-smallest.webp') no-repeat center center;
+    }
+
     .general-grid {
         width: 100%;
         padding: 20px 0px 35px 0px;
