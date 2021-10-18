@@ -460,25 +460,25 @@ h2 {
     }
 
     #hero-section {
-        height: 325px;
+        height: 400px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
 
     #hero {
-        height: 325px;
+        height: 400px;
         background: url('../images/hero-image-smallest.webp') no-repeat center center;
     }
 
     #welcome-text {
-        font-size: 105%;
+        font-size: 100%;
         text-align: center;
         height: 150px;
         width: 100%;
         bottom: 35px;
         left: 0px;
-        padding: 0px;
+        padding: 0.5em;
     }
 
     .general-grid {
