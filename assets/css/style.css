@@ -74,7 +74,7 @@ h2 {
 
 #hero {
     height: 650px;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image.webp') no-repeat center center;
     background-size: cover;
     animation-name: zoom;
     animation-duration: 6s;
@@ -169,7 +169,7 @@ h2 {
 #classes-image {
     height: 650px;
     width: 100%;
-    background: url('../images/classes-image.jpg') no-repeat center center;
+    background: url('../images/classes-image.webp') no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -196,7 +196,7 @@ h2 {
 }
 
 #about-chris-image {
-    background: url('../images/about-chris.jpg');
+    background: url('../images/about-chris.webp');
     height: 100%;
     border-radius: 50%;
 }
@@ -213,7 +213,7 @@ h2 {
 }
 
 #about-liza-image {
-    background: url('../images/about-liza.jpg');
+    background: url('../images/about-liza.webp');
     height: 100%;
     border-radius: 50%;
 }
@@ -230,7 +230,7 @@ h2 {
 }
 
 #about-sarah-image {
-    background: url('../images/about-sarah.jpg');
+    background: url('../images/about-sarah.webp');
     height: 100%;
     border-radius: 50%;
 }
@@ -239,7 +239,7 @@ h2 {
 
 .contact-section {
     clear:left;
-    background: url('../images/contact-background.jpg');
+    background: url('../images/contact-background.webp');
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -432,7 +432,7 @@ h2 {
     #hero {
         height: 650px;
         width: 100%;
-        background: url('../images/hero-image-small.jpg') no-repeat center center;
+        background: url('../images/hero-image-small.webp') no-repeat center center;
     }
 
     #our-place-photos {
