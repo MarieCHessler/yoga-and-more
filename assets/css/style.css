@@ -451,13 +451,6 @@ h2 {
         margin-left: 35px;
     }
 
-    #welcome-text {
-        left: 0px;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-    }
-
     #logo {
         left: 0px;
         width: 100%;
@@ -466,9 +459,26 @@ h2 {
         margin-left: 0px;
     }
 
+    #hero-section {
+        height: 325px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
     #hero {
         height: 325px;
         background: url('../images/hero-image-smallest.webp') no-repeat center center;
+    }
+
+    #welcome-text {
+        font-size: 105%;
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        bottom: 35px;
+        left: 0px;
+        padding: 0px;
     }
 
     .general-grid {
