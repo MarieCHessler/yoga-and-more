@@ -235,6 +235,30 @@ h2 {
     border-radius: 50%;
 }
 
+.our-classes-pictures {
+    text-align: center;
+}
+
+a.our-classes-pictures-button {
+    color: #f8f3f2;
+    background-color: #444554;
+    font-family: Raleway, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #444554;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+}
+
+a.our-classes-pictures-button:hover {
+    color: #444554;
+    background-color: #f8f3f2;
+    font-family: Raleway, sans-serif;
+}
+
 /* contact section */
 
 .contact-section {
@@ -346,9 +370,9 @@ h2 {
     float: right;
 }
 
-/* our place page */
+/* our classes page */
 
-.our-place-section-heading {
+.our-classes-section-heading {
     text-align: center;
     height: 50px;
     background-color: #444554;
@@ -359,14 +383,14 @@ h2 {
     clear: both
 }
 
-#our-place-photos {
+#our-classes-pictures {
     column-count: 4;
     column-gap: 0;
     line-height: 0;
     clear: both;
 }
 
-#our-place-photos > img {
+#our-classes-pictures > img {
     width: 100%;
 }
 
