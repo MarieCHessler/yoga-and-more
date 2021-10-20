@@ -496,7 +496,7 @@ a.our-classes-pictures-button:hover {
         background: url('../images/classes-image-smallest.webp') no-repeat center center;
     }
 
-    #our-place-photos {
+    #our-classes-pictures {
         column-count: 3;
     }
 }
@@ -558,7 +558,7 @@ a.our-classes-pictures-button:hover {
         background: url('../images/classes-image-smallest.webp') no-repeat center center;
     }
 
-    #our-place-photos {
+    #our-classes-pictures {
         column-count: 3;
     }
 
@@ -598,7 +598,7 @@ a.our-classes-pictures-button:hover {
         float: none;
     }
 
-    #our-place-photos {
+    #our-classes-pictures {
         column-count: 2;
     }
 }
@@ -618,5 +618,9 @@ a.our-classes-pictures-button:hover {
     #menu li {
         margin-right: 35px;
         padding: 0.5em;
+    }
+
+    #our-classes-pictures {
+        column-count: 2;
     }
 }
