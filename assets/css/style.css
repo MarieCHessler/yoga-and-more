@@ -394,6 +394,10 @@ a.our-classes-pictures-button:hover {
     width: 100%;
 }
 
+#our-classes-pictures img {
+    display: block
+}
+
 /* thank you page */
 
 .thank-you {
