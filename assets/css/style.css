@@ -420,12 +420,6 @@ a.our-classes-pictures-button:hover {
 }
 
 /* media queries */
-/* for screen sizes 1200px and down */
-
-@media screen and (max-width: 1200px) {
-    
-}
-
 /* for screen sizes 1120px and down*/
 
 @media screen and (max-width: 1120px) {
@@ -436,11 +430,11 @@ a.our-classes-pictures-button:hover {
     }
 
     .section-image {
-        height: 400px;
+        height: 650px;
     }
 
     #classes-image {
-        height: 400px;
+        height: 650px;
         background: url('../images/classes-image-small.webp') no-repeat center center;
         background-attachment: unset;
     }
@@ -483,7 +477,7 @@ a.our-classes-pictures-button:hover {
 
     #menu li {
         margin-right: 0px;
-        padding: 1em;
+        padding: 0.5em;
     }
 
     #hero {
@@ -493,11 +487,11 @@ a.our-classes-pictures-button:hover {
     }
 
     .section-image {
-        height: 200px;
+        height: 325px;
     }
 
     #classes-image {
-        height: 200px;
+        height: 325px;
         background: url('../images/classes-image-smallest.webp') no-repeat center center;
     }
 
@@ -506,21 +500,11 @@ a.our-classes-pictures-button:hover {
     }
 }
 
-/* for screen sizes 570px and down */
+/* for screen sizes 600px and down */
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 600px) {
     #menu {
-        float: right;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-top: 0px;
         margin-bottom: 10px;
-    }
-
-    #menu li {
-        margin-right: 0px;
-        padding: 0.5em;
     }
 
     #logo {
@@ -564,6 +548,19 @@ a.our-classes-pictures-button:hover {
         text-align: center;
     }
 
+    .section-image {
+        height: 325px;
+    }
+
+    #classes-image {
+        height: 325px;
+        background: url('../images/classes-image-smallest.webp') no-repeat center center;
+    }
+
+    #our-place-photos {
+        column-count: 3;
+    }
+
     #about-grid {
         grid-template-columns: 1fr;
         text-align: center;
@@ -602,5 +599,23 @@ a.our-classes-pictures-button:hover {
 
     #our-place-photos {
         column-count: 2;
+    }
+}
+
+/* for screen sizes 340px and down */
+
+@media screen and (max-width: 340px) {
+    #menu {
+        float: right;
+        width: unset;
+        display: unset;
+        justify-content: unset;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #menu li {
+        margin-right: 35px;
+        padding: 0.5em;
     }
 }
