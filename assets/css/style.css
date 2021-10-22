@@ -353,12 +353,13 @@ a.our-classes-pictures-button:hover {
 
 #footer-social {
     float: right;
-    margin-right: 5%;
+    margin-right: -2.5%;
     width: 300px;
 }
 
 .footer-social >li {
     display: inline;
+    float: left;
 }
 
 .footer-social i {
