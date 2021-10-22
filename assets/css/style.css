@@ -12,7 +12,7 @@ body {
     margin: 0px;
 }
 
-/* headings and logo */
+/* Headings and Logo */
 
 h1 {
     font-family: Montez, sans-serif;
@@ -33,13 +33,19 @@ h2 {
     margin-bottom: 0.2em;
 }
 
-/* navigation */
+/* Navigation */
 
 #menu {
     float: right;
     font-size: 115%;
 }
 
+/* Solution to floating menu right and keeping menu items in the right order by floating menu li left, as below, is based on
+Title: How to float right and keep menu in right order
+Author: huntermacd
+Date: Aug 23, 2015
+URL: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order 
+*/
 #menu li {
     float: left;
     list-style-type: none;
@@ -63,7 +69,7 @@ h2 {
     line-height: 65px;
 }
 
-/* hero image and welcome section */
+/* Hero Image and Welcome Section */
 
 #hero-section {
     height: 650px;
@@ -72,6 +78,12 @@ h2 {
     position: relative;
 }
 
+/* Idea for animation, but zoom out instead of zoom in, is based on
+Title: Hero Image Animation
+Author: Code Institute
+Date: 2021
+URL: https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/
+*/
 #hero {
     height: 650px;
     background: url('../images/hero-image.webp') no-repeat center center;
@@ -106,8 +118,14 @@ h2 {
     background-color: rgba(23, 33, 33, .5);
 }
 
-/* general for sections */
+/* General for sections */
 
+/* Help with solution for issue with H2 background colors gathering at top of page 
+Title: Solution to H2 background color issue
+Author: Reuben Ferrante, mentor
+Date: Oct 12, 2021
+Mentor tip: Remove float:left from class style, and gather the general section heading styles under one class
+*/
 .general-section-heading {
     text-align: center;
     height: 50px;
@@ -128,12 +146,18 @@ h2 {
     text-align: center;
 }
 
-/* classes and times section */
+/* Classes and Times section */
 
 #classes-section {
     justify-content: center;
 }
 
+/* Inspiration on how to create a grid
+Title: Basic Concepts of grid layout
+Author: MDN contributors
+Date: Sept 19, 2021
+URL: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+*/
 #classes-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -166,6 +190,41 @@ h2 {
     position: relative;
 }
 
+/* Inspiration on how to create a link that looks like a button 
+Title: CSS Basics: Styling Links Like a Boss
+Author: Geoff Graham
+Date: Feb 15, 2018
+URL: https://css-tricks.com/css-basics-styling-links-like-boss/
+*/
+.our-classes-pictures {
+    text-align: center;
+    padding-bottom: 0.75em;
+}
+
+a.our-classes-pictures-button {
+    color: #f8f3f2;
+    background-color: #444554;
+    font-family: Raleway, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #444554;
+}
+
+a.our-classes-pictures-button:hover {
+    color: #444554;
+    background-color: #f8f3f2;
+    font-family: Raleway, sans-serif;
+}
+
+/* Inspiration on how to scroll content over background image
+Title: CSS background-attachment Property
+Author: W3Schools
+Date: 2021
+URL: https://www.w3schools.com/cssref/pr_background-attachment.asp
+*/
+
 #classes-image {
     height: 650px;
     width: 100%;
@@ -174,7 +233,7 @@ h2 {
     background-size: cover;
 }
 
-/* about us section */
+/* About Us section */
 
 #about-grid {
     display: grid;
@@ -235,28 +294,7 @@ h2 {
     border-radius: 50%;
 }
 
-.our-classes-pictures {
-    text-align: center;
-}
-
-a.our-classes-pictures-button {
-    color: #f8f3f2;
-    background-color: #444554;
-    font-family: Raleway, sans-serif;
-    font-size: 100%;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 25px 10px 25px;
-    border: 2px solid #444554;
-}
-
-a.our-classes-pictures-button:hover {
-    color: #444554;
-    background-color: #f8f3f2;
-    font-family: Raleway, sans-serif;
-}
-
-/* contact section */
+/* Contact Section */
 
 .contact-section {
     clear:left;
@@ -335,7 +373,7 @@ a.our-classes-pictures-button:hover {
     position: absolute
 }
 
-/* footer section */
+/* Footer section */
 
 #footer {
     color: #f8f3f2;
@@ -368,7 +406,7 @@ a.our-classes-pictures-button:hover {
     float: right;
 }
 
-/* our classes page */
+/* Our Classes page */
 
 .our-classes-section-heading {
     text-align: center;
@@ -396,7 +434,7 @@ a.our-classes-pictures-button:hover {
     display: block
 }
 
-/* thank you page */
+/* Thank You page */
 
 .thank-you {
     text-align: center;
@@ -421,7 +459,7 @@ a.our-classes-pictures-button:hover {
     font-size: 125%;
 }
 
-/* media queries */
+/* Media queries */
 /* for screen sizes 1120px and down*/
 
 @media screen and (max-width: 1120px) {
