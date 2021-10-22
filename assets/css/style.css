@@ -636,7 +636,12 @@ URL: https://www.w3schools.com/cssref/pr_background-attachment.asp
         padding: 0 1em;
         float: none;
     }
-
+    
+    .footer-social >li {
+        display: inline;
+        float: none;
+    }
+    
     #our-classes-pictures {
         column-count: 2;
     }
