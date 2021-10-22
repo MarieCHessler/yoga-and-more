@@ -8,7 +8,12 @@
     <meta name="keywords" content="yoga and more, yoga, pilates, meditation, helsingborg, sweden">
     
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- DNS prefetch for Google Fonts - https://developer.mozilla.org/en-US/docs/Web/Performance/dns-prefetch -->
+   
+    <!-- DNS prefetch for Google Fonts
+    Title: Using dns-prefetch
+    Author: MDN contributors
+    Date: Oct 14, 2021
+    URL: https://developer.mozilla.org/en-US/docs/Web/Performance/dns-prefetch -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
 
@@ -157,6 +162,7 @@
     <!-- Contact section -->
     <section id="contact-section" class="contact-section">
         <h2 class="general-section-heading">Contact</h2>
+        <!-- Use of get instead of post, since post cannot be used without validation and somewhere to post the content to -->
         <form method="get" action="https://mariechessler.github.io/yoga-and-more/thank-you.html" class="contact-form" target="_blank">
             <label for="first-name">First Name</label>
             <input class="input-text" id="first-name" name="first-name" type="text" required>
