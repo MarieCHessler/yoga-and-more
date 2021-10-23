@@ -1,26 +1,57 @@
-<h1>Yoga & More</h1>
-<p>Yoga & More is a website that aims to inspire people to come and enjoy yoga, pilates and meditation in Helsingborg, Sweden. The site is targeted towards people who want a small studio with a pleasant, calm and relaxing setting for their classes. Yoga & More will be useful for people to be able to find out what times different classes are, who leads the class, how to get in touch, and where the studio is located.</p>
+# Yoga & More
 
-<p>A link to the live website can be found <a href="https://mariechessler.github.io/yoga-and-more/index.html" target="_blank">here</a>, and a link to the repository <a href="https://github.com/MarieCHessler/yoga-and-more" target="_blank">here</a>.</p>
+Yoga & More is a website that aims to inspire people to come and enjoy yoga, pilates and meditation in Helsingborg, Sweden. The site is targeted towards people who want a small studio with a pleasant, calm and relaxing setting for their classes. Yoga & More will be useful for people to be able to find out what times different classes are, who leads the class, how to get in touch, and where the studio is located.
 
-<img src="assets/images/ym-screens.webp" alt="Yoga & More on different screen sizes">
-<h2>Design</h2>
-<hr>
-<h3>Color Scheme</h3>
-<img src="assets/images/ym-5-color-palette.webp" alt="Yoga & More 5 color palette">
-    <ul>
-        <li>The site's primary colors are (from left to right) Dark Jungle Green, Independence, Taupe Grey, Old Lavender and Isabelline, as seen in the picture above. They were derived using the online tool <a href="https://coolors.co" target="_blank">Coolors</a>, to complement each other in a good way, and still making contrasts possible.</li>
-            <ul>
-                <li>Dark Jungle Green is used for text and menu, for best contrast on white</li>
-                <li>Independence is used for dark backgrounds</li>
-                <li>Taupe Grey is used as hover color and for Classes icons</li>
-                <li>Old Lavender is used for the logo</li>
-                <li>Isabelline is used instead of white for text and headings on dark background</li>
-            </ul>
-        <li>The colors are all soft, to mirror the feeling in the studio and the colors in the hero image</li>
-    </ul>
-<h2>Features</h2>
-<p>Describe each of the different parts of the project in a sentence. Value for the user, based on who the site is for, what they want to achieve and how this will helt them achieve it</p>
+A link to the live website can be found [here](https://mariechessler.github.io/yoga-and-more/index.html), and a link to the repository [here](https://github.com/MarieCHessler/yoga-and-more).
+
+![Yoga & More on different screen sizes](assets/images/ym-screens.webp)
+
+<br>
+
+## Design
+
+*** 
+
+<br>
+
+![Yoga & More 5 color palette](assets/images/ym-5-color-palette.webp)
+
+### Color Palette
+
+* The site's primary colors are (from left to right) Dark Jungle Green, Independence, Taupe Grey, Old Lavender and Isabelline, as seen in the picture above. They were derived using the online tool [Coolors](https://coolors.co), to complement each other in a good way, and still making contrasts possible.
+    * Dark Jungle Green is used for text and menu, for best contrast on white
+    * Independence is used for dark backgrounds
+    * Taupe Grey is used as hover color and for Classes icons
+    * Old Lavender is used for the logo
+    * Isabelline is used instead of white for text and headings on dark background <br><br>
+* The colors are all soft, to mirror the feeling in the studio and the colors in the hero image
+
+<br>
+
+### Typography
+
+* Raleway is used for text and menu, since it it easy to read. Fallback font is sans-serif
+* Montez is used for logo and headings, since it fits well with the soft feeling of yoga, pilates and meditation. Fallback font is sans-serif
+* Both fonts are from Google Fonts, where they are considered to be a popular pairing
+
+<br>
+
+### Layout
+
+* The majority of the content is placed in sections on the main page, rather than on separate pages. The reason is that not all content would fill a whole page, and thus result in a lot of white space or a footer too high up on the page
+* The image gallery has been placed on a separate page, since it takes up a lot of space
+
+### Wireframes
+
+* The wireframe is designed to structure the content on the page for desktop and mobile screens
+
+<br>
+
+## Features
+
+***
+
+Describe each of the different parts of the project in a sentence. Value for the user, based on who the site is for, what they want to achieve and how this will helt them achieve it
 
 <h3>Existing features</h3>
     <ul>
