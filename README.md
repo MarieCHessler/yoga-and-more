@@ -129,7 +129,7 @@ The features described below have been implemented to give the user a pleasant e
 
 ### Features left to implement
 * A video where the teachers introduce the studio and themselves.
-* Send functionality for the contact form. As of now GET is used instead of POST, since there is nowhere to post the info. Validation is needed, and I have not learned that yet, so I have used GET together with an action that takes the user to a Thank you page that opens in a new window.
+* Send functionality for the contact form. As of now GET is used instead of POST, since there is nowhere to post the info to. Validation is needed, and I have not learned that yet, so I have used GET together with an action that takes the user to a Thank you page that opens in a new window.
 
 <br>
 
