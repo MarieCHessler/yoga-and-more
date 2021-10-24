@@ -39,11 +39,20 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 ### Layout
 
 * The majority of the content is placed in sections on the main page, rather than on separate pages. The reason is that not all content would fill a whole page, and thus result in a lot of white space or a footer too high up on the page
-* The image gallery has been placed on a separate page, since it takes up a lot of space
+* The image gallery has been placed on a separate page, called Our Classes, since it takes up a lot of space
+* For desktop layout the content has been divided into up to four columns, for tablet at least one column less, and for mobile at least two columns less, depending on content and page.
+
+<br>
 
 ### Wireframes
 
-* The wireframe is designed to structure the content on the page for desktop and mobile screens
+* The wireframes were used to structure the page content for desktop, tablet and mobile screens. The structure differs between screen sizes, for the user to be able to see and access the content properly.
+
+<br>
+
+![Wireframes for desktop](assets/images/ym-wf-desktop.webp)
+![Wireframes for tablet](assets/images/ym-wf-tablet.webp)
+![Wireframes for mobile Homepage](assets/images/ym-wf-mobile.webp)
 
 <br>
 
