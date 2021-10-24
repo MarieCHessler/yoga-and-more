@@ -151,15 +151,23 @@ The features described below have been implemented to give the user a pleasant e
 <h3>Unfixed bugs</h3>
     <p>Mention unfixed bugs and why they are not fixed, shortcomings etc</p>
 
-<h2>Deployment</h2>
-    <p>The site was deployed to GitHub pages by following these steps:</p>
-    <ul>
-        <li>Step 1</li>
-        <li>Step 2</li>
-        <li>Step 3</li>
-        <li>Step 4</li>
-    </ul>
-    <p>The live link can be found here: "#"</p>
+## Deployment
+
+***
+
+### GitHub Pages
+The site was deployed to GitHub pages by following these steps:
+
+<br>
+
+* Log in to GitHub.
+* Go to the GitHub repository.
+* Click on Settings.
+* Scroll down to the GitHub Pages section and click on "Check it out here!".
+* Under Source, click the arrow and choose Branch: main.
+* After a little while the page is automatically refreshed and you get a message on green background saying "Your site is published at: ...", with a link to your site, showing that your deployment was successful.
+
+The live link can be found here: https://mariechessler.github.io/yoga-and-more/index.html
 
 <h2>Credits</h2>
     <p>The references mentioned in this section have been used when it comes to content and media</p>
