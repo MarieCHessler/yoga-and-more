@@ -127,28 +127,65 @@ The features described below have been implemented to give the user a pleasant e
 
 <br>
 
-### Features left to implement
+### Features for the future
 * A video where the teachers introduce the studio and themselves.
 * Send functionality for the contact form. As of now GET is used instead of POST, since there is nowhere to post the info to. Validation is needed, and I have not learned that yet, so I have used GET together with an action that takes the user to a Thank you page that opens in a new window.
 
 <br>
 
-<h2>Testing</h2>
-    <p>Show and document that all features work as intended, that the user can achieve their goals and how the project looks and works on different browsers and screen sizes</p>
+## Testing
 
-<h3>Validator testing</h3>
-    <ul>
-        <li>HTML</li>
-            <ul>
-                <li>Errors/no errors were returned when passing through the official W3C validator</li>
-            </ul>
-        <li>CSS</li>
-            <ul>
-                <li>Errors/no errors were returned when passing through the official (Jigsaw) validator</li>
-            </ul>
-    </ul>
+***
 
-<h3>Unfixed bugs</h3>
+The site has been tested through both validator testing and manual testing. Details are provided in the sections below.
+
+<br>
+
+### Validator testing
+* HTML
+    * No errors or warnings were found on index.html, our-classes.html or thank-you.html, when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+
+<br>
+
+* CSS
+    * No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+    * One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
+
+<br>
+
+### Manual testing
+* The site has been run in Lighthouse, with the following results for the landing page and the page Our Classes on desktop.
+
+![Lighthouse result landing page desktop](assets/images/lighthouse-landing-desktop.webp)
+![Lighthouse result Our Classes page desktop](assets/images/lighthouse-our-classes-desktop.webp)
+
+<br>
+
+* The site has been run in Lighthouse with the following results for the landing page and the page Our Classes on mobile.
+
+![Lighthouse result landing page mobile](assets/images/lighthouse-landing-mobile.webp)
+![Lighthouse result Our Classes page mobile](assets/images/lighthouse-our-classes-mobile.webp)
+
+<br>
+
+* The reasons the score is less than 100% on Performance are the following:
+    * For the landing page on desktop, scoring 99%, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
+    * For the landing page on mobile, scoring 93%, Largest Contentful Paint had been improved, but still was not excellent. Also, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
+    * For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
+
+<br>
+
+* I manually checked the following in the pages:
+    * Links working properly.
+    * Form working properly, and asking user to fill out mandatory fields.
+    * Map showing the right adress.
+    * Responsiveness working properly, and no content moving in unexpected ways when screen size changes.
+    * Fixed image staying in the background on scroll.
+    * External links and Thank you page opening in new tabs.
+
+## Bugs
+
+Unfixed bugs</h3>
     <p>Mention unfixed bugs and why they are not fixed, shortcomings etc</p>
 
 ## Deployment
