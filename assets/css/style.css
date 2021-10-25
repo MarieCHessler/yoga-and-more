@@ -431,7 +431,8 @@ URL: https://www.w3schools.com/cssref/pr_background-attachment.asp
 }
 
 #our-classes-pictures img {
-    display: block
+    display: block;
+    transform: none;
 }
 
 /* Thank You page */
