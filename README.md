@@ -50,9 +50,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 
 <br>
 
-![Wireframes for desktop](assets/images/ym-wf-desktop.webp)
-![Wireframes for tablet](assets/images/ym-wf-tablet.webp)
-![Wireframes for mobile](assets/images/ym-wf-mobile.webp)
+![Wireframes for desktop, tablet and mobile](assets/images/ym-wireframes.webp)
 
 <br>
 
@@ -169,6 +167,7 @@ The site has been tested through both validator testing and manual testing. Deta
 * Checks have been made on these devices and in these browsers:
     * iMac 27"
     * MacBook Pro 13"
+    * iPad generation 6
     * iPhone XR and 11
     * HP EliteBook
     * HP ProBook
@@ -182,17 +181,15 @@ The site has been tested through both validator testing and manual testing. Deta
 
 <br>
 
-* The site has been run in Lighthouse, with the following results for the landing page and the page Our Classes on desktop.
+* The site has been run in Lighthouse, with the following results for the landing page, Our Classes and Thank you on desktop.
 
-![Lighthouse result landing page desktop](assets/images/lighthouse-landing-desktop.webp)
-![Lighthouse result Our Classes page desktop](assets/images/lighthouse-our-classes-desktop.webp)
+![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
 
 <br>
 
-* The site has been run in Lighthouse with the following results for the landing page and the page Our Classes on mobile.
+* The site has been run in Lighthouse with the following results for the landing page, Our Classes and Thank you on mobile.
 
-![Lighthouse result landing page mobile](assets/images/lighthouse-landing-mobile.webp)
-![Lighthouse result Our Classes page mobile](assets/images/lighthouse-our-classes-mobile.webp)
+![Lighthouse results mobile](assets/images/lighthouse-mobile.webp)
 
 <br>
 
@@ -200,6 +197,7 @@ The site has been tested through both validator testing and manual testing. Deta
     * For the landing page on desktop, scoring 99%, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
     * For the landing page on mobile, scoring 93%, Largest Contentful Paint had been improved, but still was not excellent. Also, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
     * For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
+    * For the Thank you page on mobile, scoring 97%, the Cumulative Layout Shift was 0.11, which means it needs a minor improvement for excellent score. 
 
 <br>
 
