@@ -128,8 +128,9 @@ The features described below have been implemented to give the user a pleasant e
 <br>
 
 ### Features for the future
-* A video where the teachers introduce the studio and themselves.
+* Back to top link, or hamburger menu, beside section headlines. Needed if content grows.
 * Send functionality for the contact form. As of now GET is used instead of POST, since there is nowhere to post the info to. Validation is needed, and I have not learned that yet, so I have used GET together with an action that takes the user to a Thank you page that opens in a new window.
+* A video where the teachers introduce the studio and themselves.
 
 <br>
 
@@ -154,6 +155,33 @@ The site has been tested through both validator testing and manual testing. Deta
 <br>
 
 ### Manual testing
+* The following has been checked manually, on different devices (see below):
+    * Links, menu items and buttons working properly.
+    * External links and Thank you page opening in new tabs.
+    * Form working properly, asking user to fill out mandatory fields.
+    * Images showing in right proportions and places.
+    * Fixed image staying in the background on scroll.
+    * Map showing the right adress, and opening in new tab when Show larger map is clicked.
+    * Responsiveness working properly, and no content moving in unexpected ways when screen size changes.
+
+<br>
+
+* Checks have been made on these devices and in these browsers:
+    * iMac 27"
+    * MacBook Pro 13"
+    * iPhone XR and 11
+    * HP EliteBook
+    * HP ProBook
+    * Safari - Version 15.0 (16612.1.29.41.4, 16612)
+    * Chrome - Version 95.0.4638.54 (Official version) (x86_64)
+    * Edge - Version 95.0.1020.30 (Official version) (64 bit)
+
+<br>
+
+* The site's responsiveness has been checked in Google DevTools throughout the project.
+
+<br>
+
 * The site has been run in Lighthouse, with the following results for the landing page and the page Our Classes on desktop.
 
 ![Lighthouse result landing page desktop](assets/images/lighthouse-landing-desktop.webp)
@@ -174,14 +202,6 @@ The site has been tested through both validator testing and manual testing. Deta
     * For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
 
 <br>
-
-* I manually checked the following in the pages:
-    * Links working properly.
-    * Form working properly, and asking user to fill out mandatory fields.
-    * Map showing the right adress.
-    * Responsiveness working properly, and no content moving in unexpected ways when screen size changes.
-    * Fixed image staying in the background on scroll.
-    * External links and Thank you page opening in new tabs.
 
 ## Bugs
 
