@@ -270,15 +270,61 @@ The site was deployed to GitHub pages by following these steps:
 
 The live link can be found here: https://mariechessler.github.io/yoga-and-more/index.html
 
-<h2>Credits</h2>
-    <p>The references mentioned in this section have been used when it comes to content and media</p>
+## Credits
+The references mentioned in this section have been used when it comes to content and media
 
-<h3>Content</h3>
-    <ul>
-        <li>Reference 1</li>
-    </ul>
+### Content
+* **Help with solution for issue with H2 background colors gathering at top of page** <br>
+    Title: Solution to H2 background color issue <br>
+    Author: *Reuben Ferrante*, mentor <br>
+    Date: Oct 12, 2021 <br>
+    Mentor tip: Remove float:left from class style, and gather the general section heading styles under one class
+
+<br>
+
+* **Inspiration on how to create a link that looks like a button** <br>
+    Title: CSS Basics: Styling Links Like a Boss <br>
+    Author: *Geoff Graham* <br>
+    Date: Feb 15, 2018 <br>
+    URL: https://css-tricks.com/css-basics-styling-links-like-boss/
+
+<br>
+
+* **Solution to floating menu right and keeping menu items in the right order by floating menu li left, as below, is based on** <br>
+    Title: How to float right and keep menu in right order <br>
+    Author: *huntermacd* <br>
+    Date: Aug 23, 2015 <br>
+    URL: https://stackoverflow.com/questions/20920265/horizontal-menu-how-to-float-right-but-keep-the-menu-items-in-the-correct-order
+
+<br>
+
+* **Inspiration on how to create a grid** <br>
+    Title: Basic Concepts of grid layout <br>
+    Author: *MDN contributors* <br>
+    Date: Sept 19, 2021 <br>
+    URL: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+
+<br>
+
+* **DNS prefetch for Google Fonts** <br>
+    Title: Using dns-prefetch <br>
+    Author: *MDN contributors* <br>
+    Date: Oct 14, 2021 <br>
+    URL: https://developer.mozilla.org/en-US/docs/Web/Performance/dns-prefetch
+
+<br>
+
+* **Inspiration on how to scroll content over background image** <br>
+    Title: CSS background-attachment Property <br>
+    Author: *W3Schools* <br>
+    Date: 2021 <br>
+    URL: https://www.w3schools.com/cssref/pr_background-attachment.asp
+
+<br>
 
 <h3>Media</h3>
-    <ul>
-        <li>Reference 1</li>
-    </ul>
+* Favicon
+    Title: Flaticon
+    Author: Freepik
+    Date:
+    URL: https://www.flaticon.com/
