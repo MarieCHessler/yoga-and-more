@@ -35,7 +35,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 7. [Credits](https://github.com/MarieCHessler/yoga-and-more#credits)
     * [Content](https://github.com/MarieCHessler/yoga-and-more#content)
     * [Media](https://github.com/MarieCHessler/yoga-and-more#media)
-    * [Special Thanks to](https://github.com/MarieCHessler/yoga-and-more#special-thanks-to)
+    * [Special thanks to](https://github.com/MarieCHessler/yoga-and-more#special-thanks-to)
 
 <br>
 
@@ -48,11 +48,11 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 ### Color Palette
 
 * The site's primary colors are (from left to right) Dark Jungle Green, Independence, Taupe Grey, Old Lavender and Isabelline, as seen in the picture above. They were derived using the online tool [Coolors](https://coolors.co), to complement each other in a good way, and still making contrasts possible.
-    * Dark Jungle Green is used for text and menu, for best contrast on white.
-    * Independence is used for dark backgrounds.
-    * Taupe Grey is used as hover color and for Classes icons.
-    * Old Lavender is used for the logo.
-    * Isabelline is used instead of white for text and headings on dark background <br><br>
+    * **Dark Jungle Green** is used for text and menu, for best contrast on white.
+    * **Independence** is used for dark backgrounds.
+    * **Taupe Grey** is used as hover color and for Classes icons.
+    * **Old Lavender** is used for the logo.
+    * **Isabelline** is used instead of white for text and headings on dark background <br><br>
 * The colors are all soft, to mirror the feeling in the studio and the colors in the hero image.
 
 
@@ -82,10 +82,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 
 ## Features
 
-
 The features described below have been implemented to give the user a pleasant experience, with a site that contains useful information and imagery, and is easy to navigate.
-
-<br>
 
 ### Existing features
 
@@ -150,8 +147,6 @@ The features described below have been implemented to give the user a pleasant e
 
 ![Our Classes pictures](assets/images/ym-our-classes.webp)
 
-<br>
-
 ### Features for the future
 * Back to top link, or hamburger menu, beside section headlines. Needed if content grows.
 * Send functionality for the contact form. As of now GET is used instead of POST, since there is nowhere to post the info to. Validation is needed, and I have not learned that yet, so I have used GET together with an action that takes the user to a Thank you page that opens in a new window.
@@ -164,72 +159,44 @@ The features described below have been implemented to give the user a pleasant e
 * **[Convertio](https://convertio.co)** <br>
     Used to covert png files to ico files. 
 
-<br> 
-
 * **[Coolors](https://coolors.co)** <br>
     Used to find suitable colors that complement each other.
-
-<br>
 
 * **[CSS](https://www.w3schools.com/css/default.asp)** <br>
     Used for styling and responsiveness of site.
 
-<br>
-
 * **[Font Awesome](https://fontawesome.com)** <br>
     Used for icons used for illustrations.
-
-<br>
 
 * **[Git](https://git-scm.com/)** <br>
     Used for version control, by using GitHub terminal for git commits and push to GitHub.
 
-<br>
-
 * **[GitHub](https://github.com/)** <br>
     Used to backup and store project code, including changes, and deploy.
-
-<br>
 
 * **[Gitpod](https://www.gitpod.io/)** <br>
     IDE used for programming, editing, and debugging.
 
-<br>
-
 * **[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)** <br>
     Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
-
-<br>
 
 * **[Google Fonts](https://fonts.google.com)** <br>
     Used to find and import the fonts Raleway and Montez that are used across the sites.
 
-<br>
-
 * **[HTML](https://www.w3schools.com/html/)** <br>
     Used for content and structure of site.
-
-<br>
 
 * **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** <br>
     Used for spellchecking text.
 
-<br>
-
 * **[Photoshop](https://www.adobe.com/products/photoshop.html)** <br>
     Used for editing images and illustrations.
-
-<br>
 
 * **[Squoosh](https://squoosh.app)** <br>
     Used to reduce file size in images.
 
-<br>
-
 * **[W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)** <br>
     Used to validate CSS code.
-
-<br>
 
 * **[W3C validator](https://validator.w3.org/#validate_by_input)** <br>
     Used to validate HTML code
@@ -256,7 +223,6 @@ The site has been tested through both validator testing and manual testing. Deta
 
 ### Manual testing
 * **The following has been checked manually on different devices and in different browsers:** 
-<br>
     * Links, menu items and buttons working properly.
     * External links and Thank you page opening in new tabs.
     * Form working properly, asking user to fill out mandatory fields.
@@ -268,7 +234,6 @@ The site has been tested through both validator testing and manual testing. Deta
 <br>
 
 * **The following devices and browsers have been used:**
-<br>
     * iMac 27"
     * MacBook Pro 13"
     * iPad generation 6
@@ -281,17 +246,16 @@ The site has been tested through both validator testing and manual testing. Deta
 
 <br>
 
-The site's responsiveness has been checked in Google Chrome DevTools throughout the project.
+* The site's responsiveness has been checked in Google Chrome DevTools throughout the project.
 
 <br>
 
-The site has been run in Lighthouse (part of Google Chrome DevTools), with the following results for the landing page, Our Classes and Thank you on desktop.
+* **The site has been run in Lighthouse (part of Google Chrome DevTools)**
+    * Results for the landing page, Our Classes and Thank you on desktop and mobile.
 
 ![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
 
 <br>
-
-The site has been run in Lighthouse (part of Google Chrome DevTools) with the following results for the landing page, Our Classes and Thank you on mobile.
 
 ![Lighthouse results mobile](assets/images/lighthouse-mobile.webp)
 
@@ -307,8 +271,6 @@ The site has been run in Lighthouse (part of Google Chrome DevTools) with the fo
 
 ## Bugs
 The bugs reported in the following section are a selection of the most prominent ones, that needed extra consideration and work.
-
-<br>
 
 ### Fixed bugs
 * **Bug:** White line around the whole page. <br>
@@ -376,7 +338,7 @@ The live link can be found here: https://mariechessler.github.io/yoga-and-more/i
 
 ## Credits
 
-The references mentioned in this section have been used for content and media. Special thanks are also in order.
+The references mentioned in this section have been used for content and media. Special thanks at the end.
 
 ### Content
 * **Help with solution for issue with H2 background colors gathering at top of page** <br>
@@ -478,7 +440,7 @@ The references mentioned in this section have been used for content and media. S
 
 <br>
 
-### Special Thanks to
+### Special thanks to
 
 * [Code Institute](https://codeinstitute.net/), for great instructions.
 
@@ -498,7 +460,7 @@ The references mentioned in this section have been used for content and media. S
 * [Mozilla](https://developer.mozilla.org/), for useful tips and tricks.
 
 
-* [Pexels](https://www.pexels.com/), for providing wide range of great pictures for free
+* [Pexels](https://www.pexels.com/), for providing wide range of great pictures for free.
 
 
 * [Stack Overflow](https://stackoverflow.com), for useful tips and tricks.
