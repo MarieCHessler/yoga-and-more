@@ -132,6 +132,75 @@ The features described below have been implemented to give the user a pleasant e
 
 <br>
 
+## Technnology used
+
+***
+
+* [Convertio](https://convertio.co)
+    * Used to covert png files to ico files. 
+    
+<br>
+
+* [Coolors](https://coolors.co)
+    * Used to find suitable colors that complement each other.
+
+<br>
+
+* [CSS](https://www.w3schools.com/css/default.asp)
+    * Used for styling and responsiveness of site.
+
+<br>
+
+* [Font Awsome](https://fontawesome.com)
+    * Used for icons used for illustrations.
+
+<br>
+
+* [Git](https://git-scm.com/)
+    * Used for version control, by using GitHub terminal for git commits and push to GitHub.
+
+<br>
+
+* [GitHub](https://github.com/)
+    * Used to backup and store project code, including changes, and deploy.
+
+<br>
+
+* [Gitpod](https://www.gitpod.io/)
+    * IDE used for programming, editing and debugging.
+
+<br>
+
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    * Used for checking responsiveness, testing alternative code solutions and testing performance, accessibility, best practices and SEO.
+
+<br>
+
+* [Google Fonts](https://fonts.google.com)
+    * Used to find and import the fonts Raleway and Montez that are used across the sites.
+
+<br>
+
+* [HTML](https://www.w3schools.com/html/)
+    * Used for content and structure of site.
+
+<br>
+
+* [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)
+    * Used for spellcheck of text.
+
+<br>
+
+* [Photoshop](https://www.adobe.com/products/photoshop.html)
+    * Used for editing images and illustrations.
+
+<br>
+
+* [Squoosh](https://squoosh.app)
+    * Used to reduce file size in images.
+
+<br>
+
 ## Testing
 
 ***
@@ -177,17 +246,17 @@ The site has been tested through both validator testing and manual testing. Deta
 
 <br>
 
-* The site's responsiveness has been checked in Google DevTools throughout the project.
+* The site's responsiveness has been checked in Google Chrome DevTools throughout the project.
 
 <br>
 
-* The site has been run in Lighthouse, with the following results for the landing page, Our Classes and Thank you on desktop.
+* The site has been run in Lighthouse (part of Google Chrome DevTools), with the following results for the landing page, Our Classes and Thank you on desktop.
 
 ![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
 
 <br>
 
-* The site has been run in Lighthouse with the following results for the landing page, Our Classes and Thank you on mobile.
+* The site has been run in Lighthouse (part of Google Chrome DevTools) with the following results for the landing page, Our Classes and Thank you on mobile.
 
 ![Lighthouse results mobile](assets/images/lighthouse-mobile.webp)
 
@@ -242,7 +311,7 @@ The bugs reported in the following section are a selection of the most prominent
 
 <br>
 
-* **Bug:** Cumulative Layout Shift is too high when running Our Classes in Lighthouse.
+* **Bug:** Cumulative Layout Shift is too high when running Our Classes in Lighthouse (part of Google Chrome DevTools).
     * **Fix:** Set width and height on images in our-classes.html, and height:auto for our-classes-pictures img in styles.css.
 
 <br>
@@ -278,7 +347,7 @@ The live link can be found here: https://mariechessler.github.io/yoga-and-more/i
 
 ***
 
-The references mentioned in this section have been used when it comes to content and media. Special thanks to are also added.
+The references mentioned in this section have been used for content and media. Special thanks are also in order.
 
 ### Content
 * **Help with solution for issue with H2 background colors gathering at top of page** <br>
@@ -394,7 +463,19 @@ The references mentioned in this section have been used when it comes to content
 
 <br>
 
+* [Flaticon](https://www.flaticon.com/), for providing a wide range of icons for free.
+
+<br>
+
+* [Google](https://www.google.com/), for providing the very helpful [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+
+<br>
+
 * [Mozilla](https://developer.mozilla.org/), for useful tips and tricks.
+
+<br>
+
+* [Pexels](https://www.pexels.com/), for providing wide range of great pictures for free
 
 <br>
 
