@@ -30,7 +30,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 
 ### Typography
 
-* Raleway is used for text and menu, since it it easy to read. Fallback font is sans-serif.
+* Raleway is used for text and menu, since it is easy to read. Fallback font is sans-serif.
 * Montez is used for logo and headings, since it fits well with the soft feeling of yoga, pilates and meditation. Fallback font is sans-serif.
 * Both fonts are from Google Fonts, where they are considered to be a popular pairing.
 
@@ -46,7 +46,7 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 
 ### Wireframes
 
-* Wireframes were used to structure the page content for desktop, tablet and mobile screens. The structure differs between screen sizes, for the user to be able to see and access the content properly.
+* Wireframes were used to structure the page content for desktop, tablet, and mobile screens. The structure differs between screen sizes, for the user to be able to see and access the content properly.
 
 <br>
 
@@ -74,7 +74,7 @@ The features described below have been implemented to give the user a pleasant e
 <br>
 
 * **Landing page (hero) image**
-    * The top of the landing page includes a hero image, with an animation to catch the users attention.
+    * The top of the landing page includes a hero image, with an animation to catch the user's attention.
     * The image also has text overlay that welcomes the user to the page, and indicates that the studio is taking care of both body and mind.
 
 ![Hero image with welcoming message](assets/images/ym-hero-welcome.webp)
@@ -83,7 +83,7 @@ The features described below have been implemented to give the user a pleasant e
 
 * **Classes and Times section**
     * The Classes and Times section includes the classes and times for yoga, pilates, meditation and private classes, which makes it easy for the user to see what classes are the most suitable.
-    * The short description of the different classes are helpful for the user to find out what there is to choose from and what level of experience is needed.
+    * The short descriptions of the different classes are helpful for the user to find out what there is to choose from and what level of experience is needed.
     * The fixed background image enhances feeling of the studio, thanks to the harmonious colors and content.
     * The button shaped link below the text invites the user to take a look at some pictures from the studio and get inspired.
 
@@ -100,7 +100,7 @@ The features described below have been implemented to give the user a pleasant e
 <br>
 
 * **Contact section**
-    * The Contact section gives the user excellent opportunities to get in touch with Yoga & More, as it includes a contact form, a phone number and an address to the studio.
+    * The Contact section gives the user excellent opportunities to get in touch with Yoga & More, as it includes a contact form, a phone number, and an address to the studio.
     * In the form it is mandatory for the user to provide first and last name, e-mail address and what he or she is contacting the studio about, so the staff knows who has contacted them and can choose who is best suited to answer the question. The message field can be used, but is optional.
     * The background image has a calming effect, due to the balancing stones and the water.
     * At the end of the section the user finds a Google Map, where the studio's location is marked, which makes it easier to find the place and plan the visit.
@@ -108,8 +108,8 @@ The features described below have been implemented to give the user a pleasant e
 ![Contact section](assets/images/ym-contact.webp)
 
 * **Footer section**
-    * In the footer the user finds copyright information and links to Yoga & More's social media channels on Instagram, Facebook, Twitter and YouTube. The links open in new tabs to make it easy for the user to navigate without using the back button.
-    * The footer incourages the user to connect with Yoga & More on social media, which helps the him or her stay updated and feel included.
+    * In the footer the user finds copyright information and links to Yoga & More's social media channels on Instagram, Facebook, Twitter, and YouTube. The links open in new tabs to make it easy for the user to navigate without using the back button.
+    * The footer encourages the user to connect with Yoga & More on social media, which helps the him or her stay updated and feel included.
     * The section is included in all pages
 
 ![Footer section](assets/images/ym-footer.webp)
@@ -132,7 +132,7 @@ The features described below have been implemented to give the user a pleasant e
 
 <br>
 
-## Technnology used
+## Technology used
 
 ***
 
@@ -151,7 +151,7 @@ The features described below have been implemented to give the user a pleasant e
 
 <br>
 
-* [Font Awsome](https://fontawesome.com)
+* [Font Awesome](https://fontawesome.com)
     * Used for icons used for illustrations.
 
 <br>
@@ -167,12 +167,12 @@ The features described below have been implemented to give the user a pleasant e
 <br>
 
 * [Gitpod](https://www.gitpod.io/)
-    * IDE used for programming, editing and debugging.
+    * IDE used for programming, editing, and debugging.
 
 <br>
 
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    * Used for checking responsiveness, testing alternative code solutions and testing performance, accessibility, best practices and SEO.
+    * Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
 
 <br>
 
@@ -187,7 +187,7 @@ The features described below have been implemented to give the user a pleasant e
 <br>
 
 * [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)
-    * Used for spellcheck of text.
+    * Used for spellchecking text.
 
 <br>
 
@@ -198,6 +198,16 @@ The features described below have been implemented to give the user a pleasant e
 
 * [Squoosh](https://squoosh.app)
     * Used to reduce file size in images.
+
+<br>
+
+* [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    * Used to validate CSS code.
+
+<br>
+
+* [W3C validator](https://validator.w3.org/#validate_by_input)
+    * Used to validate HTML code
 
 <br>
 
@@ -222,13 +232,13 @@ The site has been tested through both validator testing and manual testing. Deta
 <br>
 
 ### Manual testing
-* The following has been checked manually, on different devices (see below):
+* The following has been checked manually on different devices (see below):
     * Links, menu items and buttons working properly.
     * External links and Thank you page opening in new tabs.
     * Form working properly, asking user to fill out mandatory fields.
     * Images showing in right proportions and places.
     * Fixed image staying in the background on scroll.
-    * Map showing the right adress, and opening in new tab when Show larger map is clicked.
+    * Map showing the right address, and opening in new tab when Show larger map is clicked.
     * Responsiveness working properly, and no content moving in unexpected ways when screen size changes.
 
 <br>
@@ -337,7 +347,7 @@ The site was deployed to GitHub pages by following these steps:
 * Click on Settings.
 * Scroll down to the GitHub Pages section and click on "Check it out here!".
 * Under Source, click the arrow and choose Branch: main.
-* After a little while the page is automatically refreshed and you get a message on green background saying "Your site is published at: ...", with a link to your site, showing that your deployment was successful.
+* After a little while the page is automatically refreshed and you get a message on green background, saying "Your site is published at: ...", with a link to your site, showing that your deployment was successful.
 
 The live link can be found here: https://mariechessler.github.io/yoga-and-more/index.html
 
