@@ -8,6 +8,37 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 
 <br>
 
+## Table of contents
+1. [Design]()
+    * [Color Palette]()
+    * [Typography]()
+    * [Layout]()
+    * [Wireframes]()
+
+2. [Features]()
+    * [Existing features]()
+    * [Features for the future]()
+
+3. [Technology used]()
+
+4. [Testing]()
+    * [Validator testing]()
+    * [Manual testing]()
+
+5. [Bugs]()
+    * [Fixed bugs]()
+    * [Known issues]()
+
+6. [Deployment]()
+    * [GitHub Pages]()
+
+7. [Credit]()
+    * [Content]()
+    * [Media]()
+    * [Special Thanks to]()
+
+<br>
+
 ## Design
 
 *** 
@@ -326,7 +357,7 @@ The bugs reported in the following section are a selection of the most prominent
 
 <br>
 
-### Unfixed bugs
+### Known issues
 * Bugfix for centered menu in screen sizes 770px and down does not work for 340px and down. Several of the settings from that bugfix have therefore been unset for screens 340px and down, to avoid bad user experience. Original settings work better for the smallest screens at this point.
 
 * No other known bugs
