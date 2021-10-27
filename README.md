@@ -250,6 +250,8 @@ The bugs reported in the following section are a selection of the most prominent
 ### Unfixed bugs
 * Bugfix for centered menu in screen sizes 770px and down does not work for 340px and down. Several of the settings from that bugfix have therefore been unset for screens 340px and down, to avoid bad user experience. Original settings work better for the smallest screens at this point.
 
+* No other known bugs
+
 <br>
 
 ## Deployment
@@ -270,8 +272,13 @@ The site was deployed to GitHub pages by following these steps:
 
 The live link can be found here: https://mariechessler.github.io/yoga-and-more/index.html
 
+<br>
+
 ## Credits
-The references mentioned in this section have been used when it comes to content and media
+
+***
+
+The references mentioned in this section have been used when it comes to content and media. Special thanks to are also added.
 
 ### Content
 * **Help with solution for issue with H2 background colors gathering at top of page** <br>
@@ -322,9 +329,77 @@ The references mentioned in this section have been used when it comes to content
 
 <br>
 
-<h3>Media</h3>
-* Favicon
-    Title: Flaticon
-    Author: Freepik
-    Date:
-    URL: https://www.flaticon.com/
+### Media
+* **Images teacher, hero** <br>
+    Site: Pexels <br>
+    Creator: *Alexy Almond* <br>
+    URL: https://www.pexels.com/sv-se/@alexy-almond?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels <br>
+    Images: pexels-alexy-almond-3756527.jpg, pexels-alexy-almond-3758056.jpg, pexels-alexy-almond-3758127.jpg, pexels-alexy-almond-3758150.jpg, pexels-alexy-almond-3758156.jpg 
+
+<br>
+
+* **Favicon** <br>
+    Site: Flaticon <br>
+    Creator: *Freepik* <br>
+    URL: https://www.flaticon.com/ <br>
+    Image: lotus.png
+
+<br>
+
+* **Images teacher** <br>
+    Site: Pexels <br>
+    Creator: *Vlada Karpovich* <br>
+    URL: https://www.pexels.com/sv-se/@vlada-karpovich?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels <br>
+    Images: pexels-vlada-karpovich-4534642.jpg, pexels-vlada-karpovich-4534662.jpg, pexels-vlada-karpovich-4534681.jpg, pexels-vlada-karpovich-4534868.jpg
+
+<br>
+
+* **Images teacher, studio** <br>
+    Site: Pexels <br>
+    Creator: *Yan Krukow* <br>
+    URL: https://www.pexels.com/sv-se/@yankrukov?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels <br>
+    Images: pexels-yan-krukov-8436437.jpg, pexels-yan-krukov-8436587.jpg, pexels-yan-krukov-8436622.jpg, pexels-yan-krukov-8436715.jpg, pexels-yan-krukov-8436731.jpg, pexels-yan-krukov-8437076.jpg
+
+<br>
+
+
+* **Image contact background** <br>
+    Site: Pexels <br>
+    Creator: *Shiva Smyth* <br>
+    URL: https://www.pexels.com/sv-se/@shiva-smyth-394854?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels <br>
+    Image: pexels-shiva-smyth-1051449.jpg
+
+<br>
+
+
+* **Image classes background** <br>
+    Site: Pexels <br>
+    Creator: *Vie Studio* <br>
+    URL: https://www.pexels.com/@vie-studio?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels <br>
+    Image: pexels-vie-studio-7006369.jpg
+
+<br>
+
+### Special Thanks to
+
+* [Code Institute](https://codeinstitute.net/), for great instructions.
+
+<br>
+
+* [CSS Tricks](https://css-tricks.com), for useful tips and tricks.
+
+<br>
+
+* Reuben Ferrante, Code Institute mentor, for his guidance and help.
+
+<br>
+
+* [Mozilla](https://developer.mozilla.org/), for useful tips and tricks.
+
+<br>
+
+* [Stack Overflow](https://stackoverflow.com), for useful tips and tricks.
+
+<br>
+
+* [W3Scools](https://www.w3schools.com/), for excellent explanations and examples, that are easy to understand.
