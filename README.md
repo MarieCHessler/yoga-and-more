@@ -9,39 +9,37 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 <br>
 
 ## Table of contents
-1. [Design]()
-    * [Color Palette]()
-    * [Typography]()
-    * [Layout]()
-    * [Wireframes]()
+1. [Design](https://github.com/MarieCHessler/yoga-and-more#design)
+    * [Color Palette](https://github.com/MarieCHessler/yoga-and-more#color-palette)
+    * [Typography](https://github.com/MarieCHessler/yoga-and-more#typography)
+    * [Layout](https://github.com/MarieCHessler/yoga-and-more#layout)
+    * [Wireframes](https://github.com/MarieCHessler/yoga-and-more#wireframes)
 
-2. [Features]()
-    * [Existing features]()
-    * [Features for the future]()
+2. [Features](https://github.com/MarieCHessler/yoga-and-more#features)
+    * [Existing features](https://github.com/MarieCHessler/yoga-and-more#existing-features)
+    * [Features for the future](https://github.com/MarieCHessler/yoga-and-more#features-for-the-future)
 
-3. [Technology used]()
+3. [Technology used](https://github.com/MarieCHessler/yoga-and-more#technology-used)
 
-4. [Testing]()
-    * [Validator testing]()
-    * [Manual testing]()
+4. [Testing](https://github.com/MarieCHessler/yoga-and-more#testing)
+    * [Validator testing](https://github.com/MarieCHessler/yoga-and-more#validator-testing)
+    * [Manual testing](https://github.com/MarieCHessler/yoga-and-more#manual-testing)
 
-5. [Bugs]()
-    * [Fixed bugs]()
-    * [Known issues]()
+5. [Bugs](https://github.com/MarieCHessler/yoga-and-more#bugs)
+    * [Fixed bugs](https://github.com/MarieCHessler/yoga-and-more#fixed-bugs)
+    * [Known issues](https://github.com/MarieCHessler/yoga-and-more#known-issues)
 
-6. [Deployment]()
-    * [GitHub Pages]()
+6. [Deployment](https://github.com/MarieCHessler/yoga-and-more#deployment)
+    * [GitHub Pages](https://github.com/MarieCHessler/yoga-and-more#github-pages)
 
-7. [Credit]()
-    * [Content]()
-    * [Media]()
-    * [Special Thanks to]()
+7. [Credits](https://github.com/MarieCHessler/yoga-and-more#credits)
+    * [Content](https://github.com/MarieCHessler/yoga-and-more#content)
+    * [Media](https://github.com/MarieCHessler/yoga-and-more#media)
+    * [Special Thanks to](https://github.com/MarieCHessler/yoga-and-more#special-thanks-to)
 
 <br>
 
 ## Design
-
-*** 
 
 <br>
 
@@ -57,7 +55,6 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
     * Isabelline is used instead of white for text and headings on dark background <br><br>
 * The colors are all soft, to mirror the feeling in the studio and the colors in the hero image.
 
-<br>
 
 ### Typography
 
@@ -65,7 +62,6 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 * Montez is used for logo and headings, since it fits well with the soft feeling of yoga, pilates and meditation. Fallback font is sans-serif.
 * Both fonts are from Google Fonts, where they are considered to be a popular pairing.
 
-<br>
 
 ### Layout
 
@@ -73,7 +69,6 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 * The image gallery has been placed on a separate page, called Our Classes, since it takes up a lot of space.
 * For desktop layout the content has been divided into up to four columns, for tablet at least one column less, and for mobile at least two columns less, depending on content and page.
 
-<br>
 
 ### Wireframes
 
@@ -95,62 +90,64 @@ The features described below have been implemented to give the user a pleasant e
 
 ### Existing features
 
-* **Navigation bar**
-    * The fully responsive navigation bar holds the logo and the menu.
-    * The logo links back to the landing page, which is considered best practice. In this case it helps the user get back from the Our Classes page.
-    * The full menu is featured on the landing page, where it links to the different sections in the page - Home, Classes, About Us and Contact. Since internal links cannot be used between pages only Home is featured on the Our Classes page, providing the user with a link back to the landing page.
+**Navigation bar**
+* The fully responsive navigation bar holds the logo and the menu.
+* The logo links back to the landing page, which is considered best practice. In this case it helps the user get back from the Our Classes page.
+* The full menu is featured on the landing page, where it links to the different sections in the page - Home, Classes, About Us and Contact. Since internal links cannot be used between pages only Home is featured on the Our Classes page, providing the user with a link back to the landing page.
 
 ![Navigation bar](assets/images/ym-navigation.webp)
 
 <br>
 
-* **Landing page (hero) image**
-    * The top of the landing page includes a hero image, with an animation to catch the user's attention.
-    * The image also has text overlay that welcomes the user to the page, and indicates that the studio is taking care of both body and mind.
+**Landing page (hero) image**
+* The top of the landing page includes a hero image, with an animation to catch the user's attention.
+* The image also has text overlay that welcomes the user to the page, and indicates that the studio is taking care of both body and mind.
 
 ![Hero image with welcoming message](assets/images/ym-hero-welcome.webp)
 
 <br>
 
-* **Classes and Times section**
-    * The Classes and Times section includes the classes and times for yoga, pilates, meditation and private classes, which makes it easy for the user to see what classes are the most suitable.
-    * The short descriptions of the different classes are helpful for the user to find out what there is to choose from and what level of experience is needed.
-    * The fixed background image enhances feeling of the studio, thanks to the harmonious colors and content.
-    * The button shaped link below the text invites the user to take a look at some pictures from the studio and get inspired.
+**Classes and Times section**
+* The Classes and Times section includes the classes and times for yoga, pilates, meditation and private classes, which makes it easy for the user to see what classes are the most suitable.
+* The short descriptions of the different classes are helpful for the user to find out what there is to choose from and what level of experience is needed.
+* The fixed background image enhances feeling of the studio, thanks to the harmonious colors and content.
+* The button shaped link below the text invites the user to take a look at some pictures from the studio and get inspired.
 
 ![Classes and Times section](assets/images/ym-classes.webp)
 
 <br>
 
-* **About Us section**
+**About Us section**
+* The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
     * The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
-    * Photos of the teachers help the user become familiar with their faces, and makes it easier to identify them when arriving at the studio. The photos also build trust, since the teachers look nice and kind.
+* The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
+* Photos of the teachers help the user become familiar with their faces, and makes it easier to identify them when arriving at the studio. The photos also build trust, since the teachers look nice and kind.
 
 ![About Us section](assets/images/ym-about-us.webp)
 
 <br>
 
-* **Contact section**
-    * The Contact section gives the user excellent opportunities to get in touch with Yoga & More, as it includes a contact form, a phone number, and an address to the studio.
-    * In the form it is mandatory for the user to provide first and last name, e-mail address and what he or she is contacting the studio about, so the staff knows who has contacted them and can choose who is best suited to answer the question. The message field can be used, but is optional.
-    * The background image has a calming effect, due to the balancing stones and the water.
-    * At the end of the section the user finds a Google Map, where the studio's location is marked, which makes it easier to find the place and plan the visit.
+**Contact section**
+* The Contact section gives the user excellent opportunities to get in touch with Yoga & More, as it includes a contact form, a phone number, and an address to the studio.
+* In the form it is mandatory for the user to provide first and last name, e-mail address and what he or she is contacting the studio about, so the staff knows who has contacted them and can choose who is best suited to answer the question. The message field can be used, but is optional.
+* The background image has a calming effect, due to the balancing stones and the water.
+* At the end of the section the user finds a Google Map, where the studio's location is marked, which makes it easier to find the place and plan the visit.
 
 ![Contact section](assets/images/ym-contact.webp)
 
-* **Footer section**
-    * In the footer the user finds copyright information and links to Yoga & More's social media channels on Instagram, Facebook, Twitter, and YouTube. The links open in new tabs to make it easy for the user to navigate without using the back button.
-    * The footer encourages the user to connect with Yoga & More on social media, which helps the him or her stay updated and feel included.
-    * The section is included in all pages
+**Footer section**
+* In the footer the user finds copyright information and links to Yoga & More's social media channels on Instagram, Facebook, Twitter, and YouTube. The links open in new tabs to make it easy for the user to navigate without using the back button.
+* The footer encourages the user to connect with Yoga & More on social media, which helps the him or her stay updated and feel included.
+* The section is included in all pages
 
 ![Footer section](assets/images/ym-footer.webp)
 
 <br>
 
-* **Our Classes page**
-    * The Our Classes page shows pictures of teachers and classes in the studio, to give the user a feeling for the place.
-    * This page is a great way for the user to get a feel for the place and a good view of what the different classes look like.
-    * The logo and the Home menu item at the top provide the user with two easy ways to get back to the landing page.
+**Our Classes page**
+* The Our Classes page shows pictures of teachers and classes in the studio, to give the user a feeling for the place.
+* This page is a great way for the user to get a feel for the place and a good view of what the different classes look like.
+* The logo and the Home menu item at the top provide the user with two easy ways to get back to the landing page.
 
 ![Our Classes pictures](assets/images/ym-our-classes.webp)
 
@@ -165,100 +162,84 @@ The features described below have been implemented to give the user a pleasant e
 
 ## Technology used
 
-***
 
-* [Convertio](https://convertio.co)
-    * Used to covert png files to ico files. 
+**[Convertio](https://convertio.co)** <br>
+Used to covert png files to ico files. 
     
-<br>
 
-* [Coolors](https://coolors.co)
-    * Used to find suitable colors that complement each other.
+**[Coolors](https://coolors.co)** <br>
+Used to find suitable colors that complement each other.
 
-<br>
 
-* [CSS](https://www.w3schools.com/css/default.asp)
-    * Used for styling and responsiveness of site.
+**[CSS](https://www.w3schools.com/css/default.asp)** <br>
+Used for styling and responsiveness of site.
 
-<br>
 
-* [Font Awesome](https://fontawesome.com)
-    * Used for icons used for illustrations.
+**[Font Awesome](https://fontawesome.com)** <br>
+    Used for icons used for illustrations.
 
-<br>
 
-* [Git](https://git-scm.com/)
-    * Used for version control, by using GitHub terminal for git commits and push to GitHub.
+**[Git](https://git-scm.com/)** <br>
+    Used for version control, by using GitHub terminal for git commits and push to GitHub.
 
-<br>
 
-* [GitHub](https://github.com/)
-    * Used to backup and store project code, including changes, and deploy.
+**[GitHub](https://github.com/)** <br>
+    Used to backup and store project code, including changes, and deploy.
 
-<br>
 
-* [Gitpod](https://www.gitpod.io/)
-    * IDE used for programming, editing, and debugging.
+* [Gitpod](https://www.gitpod.io/) <br>
+    IDE used for programming, editing, and debugging.
 
-<br>
 
-* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    * Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) <br>
+    Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
 
-<br>
 
-* [Google Fonts](https://fonts.google.com)
-    * Used to find and import the fonts Raleway and Montez that are used across the sites.
+* [Google Fonts](https://fonts.google.com) <br>
+    Used to find and import the fonts Raleway and Montez that are used across the sites.
 
-<br>
 
-* [HTML](https://www.w3schools.com/html/)
-    * Used for content and structure of site.
+* [HTML](https://www.w3schools.com/html/) <br>
+    Used for content and structure of site.
 
-<br>
 
-* [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)
-    * Used for spellchecking text.
+* [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word) <br>
+    Used for spellchecking text.
 
-<br>
 
-* [Photoshop](https://www.adobe.com/products/photoshop.html)
-    * Used for editing images and illustrations.
+* [Photoshop](https://www.adobe.com/products/photoshop.html) <br>
+    Used for editing images and illustrations.
 
-<br>
 
-* [Squoosh](https://squoosh.app)
-    * Used to reduce file size in images.
+* [Squoosh](https://squoosh.app) <br>
+    Used to reduce file size in images.
 
-<br>
 
-* [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    * Used to validate CSS code.
+* [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <br>
+    Used to validate CSS code.
 
-<br>
 
-* [W3C validator](https://validator.w3.org/#validate_by_input)
-    * Used to validate HTML code
+* [W3C validator](https://validator.w3.org/#validate_by_input) <br>
+    Used to validate HTML code
 
 <br>
 
 ## Testing
 
-***
 
 The site has been tested through both validator testing and manual testing. Details are provided in the sections below.
 
 <br>
 
 ### Validator testing
-* HTML
-    * No errors or warnings were found on index.html, our-classes.html or thank-you.html, when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+HTML
+* No errors or warnings were found on index.html, our-classes.html or thank-you.html, when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
 
 <br>
 
-* CSS
-    * No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
-    * One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
+CSS <br>
+* No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+* One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
 
 <br>
 
