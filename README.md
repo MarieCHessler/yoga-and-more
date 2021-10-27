@@ -82,7 +82,6 @@ A link to the live website can be found [here](https://mariechessler.github.io/y
 
 ## Features
 
-***
 
 The features described below have been implemented to give the user a pleasant experience, with a site that contains useful information and imagery, and is easy to navigate.
 
@@ -119,7 +118,7 @@ The features described below have been implemented to give the user a pleasant e
 
 **About Us section**
 * The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
-    * The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
+* The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
 * The About Us section allows the user to see who is teaching the different classes, and get a bit of background information about the different teachers. 
 * Photos of the teachers help the user become familiar with their faces, and makes it easier to identify them when arriving at the studio. The photos also build trust, since the teachers look nice and kind.
 
@@ -162,89 +161,102 @@ The features described below have been implemented to give the user a pleasant e
 
 ## Technology used
 
+* **[Convertio](https://convertio.co)** <br>
+    Used to covert png files to ico files. 
 
-**[Convertio](https://convertio.co)** <br>
-Used to covert png files to ico files. 
-    
+<br> 
 
-**[Coolors](https://coolors.co)** <br>
-Used to find suitable colors that complement each other.
+* **[Coolors](https://coolors.co)** <br>
+    Used to find suitable colors that complement each other.
 
+<br>
 
-**[CSS](https://www.w3schools.com/css/default.asp)** <br>
-Used for styling and responsiveness of site.
+* **[CSS](https://www.w3schools.com/css/default.asp)** <br>
+    Used for styling and responsiveness of site.
 
+<br>
 
-**[Font Awesome](https://fontawesome.com)** <br>
+* **[Font Awesome](https://fontawesome.com)** <br>
     Used for icons used for illustrations.
 
+<br>
 
-**[Git](https://git-scm.com/)** <br>
+* **[Git](https://git-scm.com/)** <br>
     Used for version control, by using GitHub terminal for git commits and push to GitHub.
 
+<br>
 
-**[GitHub](https://github.com/)** <br>
+* **[GitHub](https://github.com/)** <br>
     Used to backup and store project code, including changes, and deploy.
 
+<br>
 
-* [Gitpod](https://www.gitpod.io/) <br>
+* **[Gitpod](https://www.gitpod.io/)** <br>
     IDE used for programming, editing, and debugging.
 
+<br>
 
-* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) <br>
+* **[Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)** <br>
     Used for checking responsiveness, trying alternative code solutions, and testing performance, accessibility, best practices and SEO.
 
+<br>
 
-* [Google Fonts](https://fonts.google.com) <br>
+* **[Google Fonts](https://fonts.google.com)** <br>
     Used to find and import the fonts Raleway and Montez that are used across the sites.
 
+<br>
 
-* [HTML](https://www.w3schools.com/html/) <br>
+* **[HTML](https://www.w3schools.com/html/)** <br>
     Used for content and structure of site.
 
+<br>
 
-* [Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word) <br>
+* **[Microsoft Word](https://www.microsoft.com/en-us/microsoft-365/word)** <br>
     Used for spellchecking text.
 
+<br>
 
-* [Photoshop](https://www.adobe.com/products/photoshop.html) <br>
+* **[Photoshop](https://www.adobe.com/products/photoshop.html)** <br>
     Used for editing images and illustrations.
 
+<br>
 
-* [Squoosh](https://squoosh.app) <br>
+* **[Squoosh](https://squoosh.app)** <br>
     Used to reduce file size in images.
 
+<br>
 
-* [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <br>
+* **[W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input)** <br>
     Used to validate CSS code.
 
+<br>
 
-* [W3C validator](https://validator.w3.org/#validate_by_input) <br>
+* **[W3C validator](https://validator.w3.org/#validate_by_input)** <br>
     Used to validate HTML code
 
 <br>
 
 ## Testing
 
-
 The site has been tested through both validator testing and manual testing. Details are provided in the sections below.
 
 <br>
 
 ### Validator testing
-HTML
-* No errors or warnings were found on index.html, our-classes.html or thank-you.html, when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
+* **HTML** <br>
+    * No errors or warnings were found on index.html, our-classes.html or thank-you.html, when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input).
 
 <br>
 
-CSS <br>
-* No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
-* One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
+* **CSS** <br>
+    * No errors were found on style.css, when passing through the official [W3C (Jigsaw) validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+    * One warning was returned, saying "Imported style sheets are not checked in direct input and file upload modes".
 
 <br>
 
 ### Manual testing
-* The following has been checked manually on different devices (see below):
+* **The following has been checked manually on different devices and in different browsers:** 
+<br>
     * Links, menu items and buttons working properly.
     * External links and Thank you page opening in new tabs.
     * Form working properly, asking user to fill out mandatory fields.
@@ -255,7 +267,8 @@ CSS <br>
 
 <br>
 
-* Checks have been made on these devices and in these browsers:
+* **The following devices and browsers have been used:**
+<br>
     * iMac 27"
     * MacBook Pro 13"
     * iPad generation 6
@@ -268,27 +281,27 @@ CSS <br>
 
 <br>
 
-* The site's responsiveness has been checked in Google Chrome DevTools throughout the project.
+The site's responsiveness has been checked in Google Chrome DevTools throughout the project.
 
 <br>
 
-* The site has been run in Lighthouse (part of Google Chrome DevTools), with the following results for the landing page, Our Classes and Thank you on desktop.
+The site has been run in Lighthouse (part of Google Chrome DevTools), with the following results for the landing page, Our Classes and Thank you on desktop.
 
 ![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
 
 <br>
 
-* The site has been run in Lighthouse (part of Google Chrome DevTools) with the following results for the landing page, Our Classes and Thank you on mobile.
+The site has been run in Lighthouse (part of Google Chrome DevTools) with the following results for the landing page, Our Classes and Thank you on mobile.
 
 ![Lighthouse results mobile](assets/images/lighthouse-mobile.webp)
 
 <br>
 
-* The reasons the score is less than 100% on Performance are the following:
-    * For the landing page on desktop, scoring 99%, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
-    * For the landing page on mobile, scoring 93%, Largest Contentful Paint has been improved, but needs more improvement for excellent score. Also, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
-    * For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
-    * For the Thank you page on mobile, scoring 97%, the Cumulative Layout Shift was 0.11, which means it needs a minor improvement for excellent score. 
+**The reasons the score is less than 100% on Performance are the following:**
+* For the landing page on desktop, scoring 99%, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
+* For the landing page on mobile, scoring 93%, Largest Contentful Paint has been improved, but needs more improvement for excellent score. Also, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
+* For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
+* For the Thank you page on mobile, scoring 97%, the Cumulative Layout Shift was 0.11, which means it needs a minor improvement for excellent score. 
 
 <br>
 
@@ -298,43 +311,43 @@ The bugs reported in the following section are a selection of the most prominent
 <br>
 
 ### Fixed bugs
-* **Bug:** White line around the whole page.
-    * **Fix:** Add width:100% and margin:0px to body.
+* **Bug:** White line around the whole page. <br>
+    **Fix:** Add width:100% and margin:0px to body.
 
 <br>
 
-* **Bug:** H2 heading background colors gathering at the top of the Classes & Times section.
-    * **Fix:** Remove float:left.
+* **Bug:** H2 heading background colors gathering at the top of the Classes & Times section. <br>
+    **Fix:** Remove float:left.
 
 <br>
 
-* **Bug:** White line under the pictures in the Our Classes page.
-    * **Fix:** Use display:block for id our-classes-pictures img.
+* **Bug:** White line under the pictures in the Our Classes page. <br>
+    **Fix:** Use display:block for id our-classes-pictures img.
 
 <br>
 
-* **Bug:** Menu items shows in the wrong order.
-    * **Fix:** Set id menu to float:right and id menu li to float:left.
+* **Bug:** Menu items shows in the wrong order. <br>
+    **Fix:** Set id menu to float:right and id menu li to float:left.
 
 <br>
 
-* **Bug:** Menu for screen sizes 770px and down will not be centered.
-    * **Fix:** Add display:flex, justify-content:center, margin-top:0px and margin-bottom: 0px to the float:right and width:100% for id menu, and add padding:0.5em for id menu li.
+* **Bug:** Menu for screen sizes 770px and down will not be centered. <br>
+    **Fix:** Add display:flex, justify-content:center, margin-top:0px and margin-bottom: 0px to the float:right and width:100% for id menu, and add padding:0.5em for id menu li.
 
 <br>
 
-* **Bug:** Too long loading time.
-    * **Fix:** Change images from jpg to webp. Webp was chosen over AVIF, since AVIF is not supported by Apple devices yet.
+* **Bug:** Too long loading time. <br>
+    **Fix:** Change images from jpg to webp. Webp was chosen over AVIF, since AVIF is not supported by Apple devices yet.
 
 <br>
 
-* **Bug:** Fixed background image does not work on Apple devices running on iOS, only on those running on macOS.
-    * **Fix:** Since background-attachment:fixed is not supported for Apple devices running on iOS, all screens from 1120px (iPad Pro) and down get a smaller image instead, and background-attachment is changed to unset to make the image follow the scroll.
+* **Bug:** Fixed background image does not work on Apple devices running on iOS, only on those running on macOS. <br>
+    **Fix:** Since background-attachment:fixed is not supported for Apple devices running on iOS, all screens from 1120px (iPad Pro) and down get a smaller image instead, and background-attachment is changed to unset to make the image follow the scroll.
 
 <br>
 
-* **Bug:** Cumulative Layout Shift is too high when running Our Classes in Lighthouse (part of Google Chrome DevTools).
-    * **Fix:** Set width and height on images in our-classes.html, and height:auto for our-classes-pictures img in styles.css.
+* **Bug:** Cumulative Layout Shift is too high when running Our Classes in Lighthouse (part of Google Chrome DevTools). <br>
+    **Fix:** Set width and height on images in our-classes.html, and height:auto for our-classes-pictures img in styles.css.
 
 <br>
 
@@ -347,12 +360,8 @@ The bugs reported in the following section are a selection of the most prominent
 
 ## Deployment
 
-***
-
 ### GitHub Pages
-The site was deployed to GitHub pages by following these steps:
-
-<br>
+The site was deployed to GitHub pages by following these steps: <br>
 
 * Log in to GitHub.
 * Go to the GitHub repository.
@@ -366,8 +375,6 @@ The live link can be found here: https://mariechessler.github.io/yoga-and-more/i
 <br>
 
 ## Credits
-
-***
 
 The references mentioned in this section have been used for content and media. Special thanks are also in order.
 
@@ -475,34 +482,26 @@ The references mentioned in this section have been used for content and media. S
 
 * [Code Institute](https://codeinstitute.net/), for great instructions.
 
-<br>
 
 * [CSS Tricks](https://css-tricks.com), for useful tips and tricks.
 
-<br>
 
 * Reuben Ferrante, Code Institute mentor, for his guidance and help.
 
-<br>
 
 * [Flaticon](https://www.flaticon.com/), for providing a wide range of icons for free.
 
-<br>
 
 * [Google](https://www.google.com/), for providing the very helpful [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
 
-<br>
 
 * [Mozilla](https://developer.mozilla.org/), for useful tips and tricks.
 
-<br>
 
 * [Pexels](https://www.pexels.com/), for providing wide range of great pictures for free
 
-<br>
 
 * [Stack Overflow](https://stackoverflow.com), for useful tips and tricks.
 
-<br>
 
 * [W3Scools](https://www.w3schools.com/), for excellent explanations and examples, that are easy to understand.
