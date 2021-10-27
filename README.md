@@ -246,11 +246,11 @@ The site has been tested through both validator testing and manual testing. Deta
 
 <br>
 
-* The site's responsiveness has been checked in Google Chrome DevTools throughout the project.
+* **The site's responsiveness has been checked in Google Chrome DevTools throughout the project.**
 
 <br>
 
-* **The site has been run in Lighthouse (part of Google Chrome DevTools)**
+* **The site has been run in Lighthouse** (part of Google Chrome DevTools)
     * Results for the landing page, Our Classes and Thank you on desktop and mobile.
 
 ![Lighthouse results desktop](assets/images/lighthouse-desktop.webp)
@@ -261,11 +261,14 @@ The site has been tested through both validator testing and manual testing. Deta
 
 <br>
 
-**The reasons the score is less than 100% on Performance are the following:**
-* For the landing page on desktop, scoring 99%, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
-* For the landing page on mobile, scoring 93%, Largest Contentful Paint has been improved, but needs more improvement for excellent score. Also, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
-* For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
-* For the Thank you page on mobile, scoring 97%, the Cumulative Layout Shift was 0.11, which means it needs a minor improvement for excellent score. 
+* **The reasons the score is less than 100% on Performance are the following:**
+    * For the landing page on desktop, scoring 99%, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
+
+    * For the landing page on mobile, scoring 93%, Largest Contentful Paint has been improved, but needs more improvement for excellent score. Also, I did not manage to solve how to use passive listeners, or serve static assets (images) with an efficient cache policy.
+
+    * For the Our Classes page on mobile, scoring 98%, I did not manage to solve how to serve static assets (images) with an efficient cache policy.
+
+    * For the Thank you page on mobile, scoring 97%, the Cumulative Layout Shift was 0.11, which means it needs a minor improvement for excellent score. 
 
 <br>
 
